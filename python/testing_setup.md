@@ -9,7 +9,6 @@
   - [Running Tests](#running-tests)
   - [Test Coverage](#test-coverage)
 
-
 ## Prerequisites
 
 - Python 3.6+ installed
@@ -79,3 +78,7 @@ pytest --cov=core --cov=scripts
 ```
 
 This will show which parts of your code are covered by tests.
+
+## Common Problems
+
+- put **init**.py file in tests to make folder a module for imports
