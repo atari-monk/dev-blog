@@ -10,5 +10,6 @@
 
 ## Design
 
+- [Feature Specification Simple](design/feature_specification_simple.md)
 - [Feature Specification](design/feature_specification.md)
-- [Simple Feature Specification](design/simple_feature_specification.md)
+- [Iterative Process](design/iterative_process.md)
