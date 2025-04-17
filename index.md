@@ -1,3 +1,13 @@
+## AI
+
+- [ChatGpt](ai/chatgpt.md)
+
+## Design
+
+- [Feature Specification Simple](design/feature_specification_simple.md)
+- [Feature Specification](design/feature_specification.md)
+- [Iterative Process](design/iterative_process.md)
+
 ## Python
 
 - [Common Errors](python/common_errors.md)
@@ -7,9 +17,3 @@
 - [Naming Conventions](python/naming_conventions.md)
 - [Testing Setup](python/testing_setup.md)
 - [Virtual Environments](python/virtual_environments.md)
-
-## Design
-
-- [Feature Specification Simple](design/feature_specification_simple.md)
-- [Feature Specification](design/feature_specification.md)
-- [Iterative Process](design/iterative_process.md)
