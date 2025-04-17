@@ -1,6 +1,6 @@
 ## AI
 
-- [ChatGpt](ai/chatgpt.md)
+- [ChatGPT](ai/chatgpt.md)
 
 ## Design
 
