@@ -11,7 +11,7 @@
 - Code Style:
   - Code style requirement 1
   - Code style requirement 2
-- Data `DataclassName` with:
+- Data class named `DataclassName` with:
   - `Field1`: description
   - `Field2`: description
   - **JSON Schema:**
