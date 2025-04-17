@@ -9,4 +9,5 @@
 
 ## Design
 
+- [Simple Feature Specification](design/simple_feature_specification.md)
 - [Feature Specification](design/feature_specification.md)
