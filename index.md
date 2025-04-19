@@ -14,6 +14,7 @@
 - [Dev Package](python/dev-package.md)
 - [Direct vs Imported](python/direct_vs_imported.md)
 - [Empties](python/empties.md)
+- [Formatting Tools](python/formatting_tools.md)
 - [Naming Conventions](python/naming_conventions.md)
 - [Testing Setup](python/testing_setup.md)
 - [Virtual Environments](python/virtual_environments.md)
