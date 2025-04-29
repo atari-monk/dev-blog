@@ -2,7 +2,8 @@
 Convert the given markdown into a clean developer-focused blog post with this structure:
 
 ```markdown
-# Extract Title from Content
+category - 1 word
+# Extract Title from Content - 2 words
 
 Concise body preserving all technical details:  
 - Code snippets  
