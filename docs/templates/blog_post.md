@@ -1,18 +1,12 @@
 **Prompt Instructions:**  
 Convert the given markdown into a clean developer-focused blog post with this structure:
 
-```markdown
-category - 1 word
-# Extract Title from Content - 2 words
+# Title - 2 words based on content
 
-Concise body preserving all technical details:  
-- Code snippets  
-- Commands  
-- Configuration  
-- Key explanations
-
+Concise body preserving ideas and concepts 
 No non-technical fluff or commentary
-```
+
+---
 
 **Rules:**  
 1. **Audience:** Developers (assume technical knowledge)  
@@ -24,23 +18,6 @@ No non-technical fluff or commentary
    - Use ` ``` ` fences for ALL code  
    - Headers only for major sections (H2+)  
    - Bullet points for steps/lists  
-
-**Example Output:**  
-
-# Setting Up Next.js with TypeScript
-
-- Install dependencies:  
-  ```bash
-  npm install next react react-dom typescript @types/react @types/node
-  ```
-- Required `tsconfig.json`:  
-  ```json
-  {
-    "compilerOptions": {
-      "strict": true
-    }
-  }
-  ```
 
 **Prompt Content to work on:**  
 $files$
