@@ -1,6 +1,7 @@
 # python
 
 - [basics](basics/index.md)
+- [django](django/index.md)
 - [environments](environments/index.md)
 - [frameworks](frameworks/index.md)
 - [json](json/index.md)
