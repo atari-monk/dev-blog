@@ -1,8 +1,21 @@
 # 🛠 Projects  
 
+- [React](#react)
 - [Games](#games)
 - [Apps](#apps)
 - [Tutorials](#tutorials)
+
+## React
+
+### 🎯 [Tic-Tac-Toe](#)  
+**What it does:** React Tic-Tac-Toe implementation
+**Tech used:** `Html`, `Css`, `Javascript`, `JSX`  
+**Live Demo:** [Check it out](https://atari-monk.github.io/tic-tac-toe-react-tutorial-page/)  
+**Tutorial:** [Tutorial](https://react.dev/learn/tutorial-tic-tac-toe)  
+
+![Project Screenshot](./image/tic_tac_toe.png)  
+
+---
 
 ## Games
 
@@ -175,14 +188,3 @@ Goodle Login service.
 
 ---
 
-## React
-
-### 🎯 [Tic-Tac-Toe](#)  
-**What it does:** React Tic-Tac-Toe implementation
-**Tech used:** `Html`, `Css`, `Javascript`, `JSX`  
-**Live Demo:** [Check it out](https://atari-monk.github.io/tic-tac-react/build/index.html)  
-**Tutorial:** [Tutorial](https://react.dev/learn/tutorial-tic-tac-toe)  
-
-![Project Screenshot](./image/tic_tac_toe.png)  
-
----

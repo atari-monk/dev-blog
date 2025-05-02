@@ -1,6 +1,4 @@
 # tic_tac_toe
 
-- [board](board.md)
-- [game](game.md)
-- [publish](publish.md)
-- [square](square.md)
+- [steps](steps.md)
+- [component description](component_description/index.md)
