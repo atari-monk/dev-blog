@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-color-mode="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="{{ site.description }}" />
     <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/dev-blog/assets/css/styles.css" />
     <link
+      id="light-theme"
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css"
+      disabled
     />
     <link
-      id="hljs-dark"
+      id="dark-theme"
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css"
       disabled
     />
-    <link rel="stylesheet" href="/dev-blog/assets/css/styles.css" />
     <link
-      id="dark-mode-stylesheet"
+      id="dark-mode-styles"
       rel="stylesheet"
       href="/dev-blog/assets/css/dark-mode.css"
       disabled
@@ -26,13 +27,16 @@
   <body>
     <header>
       <h1>{{ site.title }}</h1>
-      <button id="darkModeToggle" aria-label="Toggle dark mode">🌓</button>
+      <button id="themeToggle" aria-label="Toggle theme">🌓</button>
     </header>
     <main>{{ content }}</main>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-    <script src="/dev-blog/assets/js/dark-mode.js"></script>
+    <script src="/dev-blog/assets/js/theme-manager.js"></script>
     <script>
-      hljs.highlightAll()
+      document.addEventListener('DOMContentLoaded', function () {
+        hljs.highlightAll()
+      })
     </script>
   </body>
 </html>
