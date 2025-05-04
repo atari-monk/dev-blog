@@ -1,4 +1,4 @@
-# Dev Blog
+## Index
 
 A collection of developer notes
 
