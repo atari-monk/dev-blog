@@ -1,5 +1,7 @@
 # Game Component
 
+- [Tutorial](https://react.dev/learn/tutorial-tic-tac-toe)
+
 ## State Management
 - `history`: Array storing all board states (using `useState`)
 - `currentMove`: Integer tracking current move index

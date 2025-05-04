@@ -1,2 +1,13 @@
-title: dev-blog
-description: blog about software
+title: Dev Blog
+description: A collection of developer notes
+markdown: kramdown
+theme: minima
+include: ['content']
+
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: 'content'
+    values:
+      layout: default
