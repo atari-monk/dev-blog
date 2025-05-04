@@ -1,6 +1,7 @@
 ---
 title: Dev Blog
-description: A collection of developer notes
 ---
+
+A collection of developer notes
 
 - [content](content/index.md)
