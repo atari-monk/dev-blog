@@ -1,5 +1,3 @@
-# Dev Blog
-
 A collection of developer notes
 
 ## Index
