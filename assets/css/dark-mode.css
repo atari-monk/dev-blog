@@ -1,4 +1,4 @@
-[data-color-mode='dark'] {
+[data-color-mode='dark'] body {
   background-color: #121212;
   color: #e0e0e0;
 }
@@ -16,8 +16,20 @@
   color: #f0f0f0;
 }
 
+[data-color-mode='dark'] p {
+  color: #e0e0e0;
+}
+
 [data-color-mode='dark'] pre {
-  background-color: #2d2d2d;
+  background-color: #1e1e1e;
+}
+
+[data-color-mode='dark'] .highlight pre code {
+  background-color: #000000;
+}
+
+[data-color-mode='dark'] code {
+  color: #e0e0e0;
 }
 
 [data-color-mode='dark'] a {
