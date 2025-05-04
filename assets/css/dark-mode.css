@@ -1,0 +1,37 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+main {
+  background-color: #1e1e1e;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+  color: #f0f0f0;
+}
+
+header {
+  border-bottom-color: #444;
+}
+
+pre {
+  background-color: #2d2d2d;
+}
+
+code {
+  color: #f0f0f0;
+}
+
+a {
+  color: #58a6ff;
+}
+
+footer {
+  color: #8b949e;
+}
+
+#darkModeToggle {
+  color: #f0f0f0;
+}
