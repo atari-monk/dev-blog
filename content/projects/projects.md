@@ -34,14 +34,6 @@
 
 ![Project Screenshot](./image/battleship.png)  
 
-### **solar-system** 
-**Solar system simulation attempt**  
-**Tech:** `Html`, `Css`, `Typescript`   
-[**Repo**](https://github.com/atari-monk/solar-system)  
-[**Live Demo**](https://atari-monk.github.io/solar-system/client/index.html)  
-
-![Project Screenshot](./image/solar_system.png)  
-
 ### **memory-game**
 **Memory game**  
 **Tech:** `Html`, `Css`, `Javascript`  
