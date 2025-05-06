@@ -1,4 +1,4 @@
-# component_description
+# tic_tac_toe
 
 - [board](board.md)
 - [game](game.md)
