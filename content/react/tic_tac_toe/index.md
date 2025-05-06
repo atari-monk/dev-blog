@@ -1,3 +1,5 @@
-# tic_tac_toe
+# component_description
 
-- [component_description](component_description/index.md)
+- [board](board.md)
+- [game](game.md)
+- [square](square.md)

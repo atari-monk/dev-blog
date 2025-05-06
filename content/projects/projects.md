@@ -6,6 +6,8 @@
 - [Apps](#apps)
 - [Tutorials](#tutorials)
 
+---
+
 ## React
 
 ### **Tic-Tac-Toe**  

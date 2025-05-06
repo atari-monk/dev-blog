@@ -1,4 +1,6 @@
-# React Code Explanation: FilterableProductTable
+# FilterableProductTable
+
+<iframe src="https://1drv.ms/u/c/37f44e52f80d7972/IQQh8ofgisP6S6_o7DO0aec3AdJ-uxkTV84gx2WUZwIWLHo" width="98" height="120" frameborder="0" scrolling="no"></iframe>
 
 ## Core Concepts
 
