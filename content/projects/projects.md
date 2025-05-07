@@ -1,7 +1,8 @@
-# Projects  
+# Projects
 
 - [React](#react)
 - [Scripts](#scripts)
+- [Repositories](#repositories)
 - [Games](#games)
 - [Apps](#apps)
 - [Tutorials](#tutorials)
@@ -25,6 +26,14 @@
 **Tech:** `Powershell`  
 [**Repo**](https://github.com/atari-monk/powershell-scripts)  
 [**Docs**](https://atari-monk.github.io/powershell-scripts/)  
+
+## **Repositories**
+
+### **Templates**  
+**A collection of setups that stored for eventual reuse**  
+**Tech:** `Config Files of Web, Python, ...`  
+[**Repo**](https://github.com/atari-monk/templates)  
+[**Docs**](https://atari-monk.github.io/templates/)  
 
 ## Games
 
@@ -147,7 +156,7 @@
 ![Project Screenshot](./image/sprites.png)  
 
 ### **arkanoid**  
-**Classic small game idea**    
+**Classic small game idea**  
 **Tech:** `Html`, `Css`, `Javascript`  
 [**Live Demo:**](https://atari-monk.github.io/js-pong-page/arkanoid.html)  
 [**Tutorial:**](https://compucademy.net/html5-breakout-game/?utm_content=cmp-true)  
