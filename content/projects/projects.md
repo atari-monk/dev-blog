@@ -24,6 +24,7 @@
 **Tech:** `Html`, `Css`, `Javascript`, `JSX`  
 [**Live Demo**](https://atari-monk.github.io/product-form-react-tutorial-page/)  
 [**Tutorial**](https://react.dev/learn/thinking-in-react)  
+[**Repo**](https://github.com/atari-monk/product-form-react-tutorial)  
 
 ![Project Screenshot](./image/product_form.png)  
 
