@@ -1,0 +1,3 @@
+# chatgpt
+
+- [tips](tips.md)
