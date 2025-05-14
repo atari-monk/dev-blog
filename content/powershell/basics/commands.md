@@ -28,3 +28,9 @@ cp C:\Source\* C:\Target -Recurse
 * `*` ensures only the contents are copied, not the folder itself.
 * `-Recurse` ensures all subfolders and files are included.
 Would you like to include hidden/system files too?
+
+## Open current folder in explorer
+
+```sh
+Invoke-Item .
+```
