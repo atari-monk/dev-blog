@@ -5,6 +5,7 @@
 - [git](git/index.md)
 - [github](github/index.md)
 - [javascript](javascript/index.md)
+- [methodology](methodology/index.md)
 - [misc](misc/index.md)
 - [powershell](powershell/index.md)
 - [projects](projects/index.md)
