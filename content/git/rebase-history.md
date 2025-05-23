@@ -9,6 +9,15 @@ git rebase -i --root
 
 This rebases from the very first commit in the repository — useful when rewriting the entire commit history.
 
+## Clean up parts of history/commits
+
+Use:
+```bash
+git rebase -i
+```
+
+Maybe search for more info on that before use.
+
 ## Editing Commit Messages
 
 You’ll see something like:

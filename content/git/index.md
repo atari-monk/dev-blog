@@ -1,4 +1,4 @@
 # git
 
-- [clear-repo](clear-repo.md)
 - [rebase-history](rebase-history.md)
+- [removing-history](removing-history.md)

@@ -1,3 +1,3 @@
 # ai
 
-- [chatgpt](chatgpt/index.md)
+- [tools](tools.md)

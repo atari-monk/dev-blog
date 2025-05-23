@@ -6,3 +6,5 @@
 - [python_path](python_path.md)
 - [python_requirements](python_requirements.md)
 - [repr](repr.md)
+- [strict_type](strict_type.md)
+- [template](template.md)
