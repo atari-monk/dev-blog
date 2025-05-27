@@ -34,3 +34,10 @@ Would you like to include hidden/system files too?
 ```sh
 Invoke-Item .
 ```
+
+## Simple way to rename the current PowerShell window:
+
+```powershell
+# Set the title of the current PowerShell window
+$Host.UI.RawUI.WindowTitle = "My Custom PowerShell Window"
+```
