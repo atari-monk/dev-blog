@@ -5,6 +5,5 @@
 - [content-strategy](content-strategy.md)
 - [creative-coding](creative-coding.md)
 - [iterative-development](iterative-development.md)
-- [job_search](job_search.md)
 - [loteryjka_historyczna](loteryjka_historyczna.md)
 - [utility-file-conventions](utility-file-conventions.md)
