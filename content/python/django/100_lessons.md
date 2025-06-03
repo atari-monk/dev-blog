@@ -600,7 +600,214 @@ Type **`n`** to continue to **Lesson 7: Template Inheritance – DRY Your HTML**
 
 ## Lesson 7
 
+Excellent! You're now ready to clean up and reuse your HTML.
+
+---
+
+### ✅ **Lesson 7: Template Inheritance – DRY Your HTML**
+
+---
+
+#### 🎯 Objective:
+
+Use Django’s **template inheritance** system to avoid repeating HTML boilerplate across pages.
+
+---
+
+### 🧱 Problem:
+
+Right now, `home.html` and `about.html` repeat the same:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    ...
+</head>
+<body>
+    ...
+</body>
+</html>
+```
+
+This violates **DRY**: *Don’t Repeat Yourself*.
+
+---
+
+### 🛠️ Step 1: Create a Base Template
+
+Create a new file:
+
+```
+blog/templates/blog/base.html
+```
+
+Add this content:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My Blog{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/about/">About</a>
+        </nav>
+        <hr>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
+```
+
+---
+
+### 🪄 Step 2: Update `home.html` and `about.html`
+
+**`home.html`:**
+
+```html
+{% extends 'blog/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the Blog!</h2>
+{% endblock %}
+```
+
+**`about.html`:**
+
+```html
+{% extends 'blog/base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+    <h2>About This Blog</h2>
+    <p>This blog is made with Django!</p>
+{% endblock %}
+```
+
+---
+
+### 🔁 Recap
+
+* `base.html` is the master layout.
+* Other templates **extend** it and define their own content inside `{% block %}` tags.
+* Easier to maintain consistent layouts.
+
+---
+
+✅ Now you have **reusable templates** and a clean project structure.
+
+Type **`n`** to continue to **Lesson 8: Static Files – CSS, JS, and Images in Django**.
+
 ## Lesson 8
+
+You're doing great — now let's add style!
+
+---
+
+### ✅ **Lesson 8: Static Files – CSS, JS, and Images in Django**
+
+---
+
+#### 🎯 Objective:
+
+Learn how to add and use **static files** like CSS, JavaScript, and images in your Django project.
+
+---
+
+### 📁 Step 1: Create a Static Folder in Your App
+
+Inside your `blog/` directory, create:
+
+```
+blog/
+└── static/
+    └── blog/
+        └── styles.css
+```
+
+> You should now have: `blog/static/blog/styles.css`
+
+---
+
+### 🖌️ Step 2: Add Some CSS
+
+**`styles.css`**
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+h1 {
+    color: #0077cc;
+}
+```
+
+---
+
+### ⚙️ Step 3: Configure Static Settings (Optional)
+
+Open `settings.py` and confirm these values exist:
+
+```python
+STATIC_URL = '/static/'
+```
+
+> Django uses this to serve static files in development.
+
+---
+
+### 🧪 Step 4: Use the Static File in Templates
+
+At the top of your templates (e.g., `base.html`), load the static template tag:
+
+```django
+{% load static %}
+```
+
+Then add this inside `<head>`:
+
+```html
+<link rel="stylesheet" href="{% static 'blog/styles.css' %}">
+```
+
+---
+
+### 🧠 Notes:
+
+* During development, Django serves static files automatically.
+* In production, you need to collect and serve them with a web server (we'll cover that later).
+
+---
+
+### ▶️ Final Test
+
+Restart server (if needed) and refresh your site:
+
+```bash
+python manage.py runserver
+```
+
+Visit `http://127.0.0.1:8000/` – your site should now have improved styling!
+
+---
+
+✅ You now know how to serve CSS and static assets in Django.
+
+Type **`n`** to move on to **Lesson 9: Django Models – Creating Database Tables**.
 
 ## Lesson 9
 
