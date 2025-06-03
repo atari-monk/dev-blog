@@ -1063,6 +1063,99 @@ Type **`n`** to continue to **Lesson 12: Individual Post Pages – Detail Views*
 
 ## Lesson 12
 
+Excellent — time to add individual post pages!
+
+---
+
+### ✅ **Lesson 12: Individual Post Pages – Detail Views**
+
+---
+
+#### 🎯 Objective:
+
+Set up **dynamic URLs** and views to display a full post on its own page.
+
+---
+
+### 🛠️ Step 1: Update the `urls.py` in `blog/`
+
+Edit `blog/urls.py` to add a route for post details:
+
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('post/<int:post_id>/', views.post_detail, name='post_detail'),
+]
+```
+
+* `<int:post_id>` captures an integer from the URL and passes it to the view as `post_id`.
+
+---
+
+### 🧱 Step 2: Add the View
+
+In `blog/views.py`, add:
+
+```python
+from django.shortcuts import get_object_or_404
+
+def post_detail(request, post_id):
+    post = get_object_or_404(Post, pk=post_id)
+    return render(request, 'blog/post_detail.html', {'post': post})
+```
+
+---
+
+### 🧾 Step 3: Create the Template
+
+Create a new file: `blog/templates/blog/post_detail.html`
+
+```html
+{% extends 'blog/base.html' %}
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <article>
+        <h2>{{ post.title }}</h2>
+        <small>Published: {{ post.published|date:"F j, Y, g:i a" }}</small>
+        <p>{{ post.content }}</p>
+    </article>
+    <a href="/">← Back to Home</a>
+{% endblock %}
+```
+
+---
+
+### 🔗 Step 4: Link from Homepage
+
+Update your loop in `home.html` to link to each post:
+
+```django
+<h3><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h3>
+```
+
+---
+
+### ✅ Final Test
+
+* Run the server:
+
+  ```bash
+  python manage.py runserver
+  ```
+* Click a post title on the homepage.
+* You should be taken to a full detail page.
+
+---
+
+You’ve now implemented dynamic routing and detail views.
+Your blog just got way more functional!
+
+Type **`n`** to continue to **Lesson 13: Django Shell – Interacting with Data Manually**.
+
 ## Lesson 13
 
 
