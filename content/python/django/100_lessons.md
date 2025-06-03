@@ -811,9 +811,255 @@ Type **`n`** to move on to **Lesson 9: Django Models – Creating Database Table
 
 ## Lesson 9
 
+Excellent — let’s get into Django’s powerful database system!
+
+---
+
+### ✅ **Lesson 9: Django Models – Creating Database Tables**
+
+---
+
+#### 🎯 Objective:
+
+Learn how to define models in Django, which are Python classes that map to database tables.
+
+---
+
+### 🧱 What is a Model?
+
+* A **model** defines the **structure** of your data.
+* Django provides a powerful ORM (Object-Relational Mapper) that turns models into SQL tables automatically.
+
+---
+
+### 🛠️ Step 1: Define Your First Model
+
+Open `blog/models.py` and add:
+
+```python
+from django.db import models
+
+class Post(models.Model):
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    published = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
+```
+
+---
+
+### 📌 Explanation
+
+* `CharField` – short text field (title).
+* `TextField` – long text field (content).
+* `DateTimeField` – automatically set to now when created (`auto_now_add=True`).
+* `__str__` – makes the object readable in the admin and shell.
+
+---
+
+### 🧩 Step 2: Register the Model
+
+Tell Django about your model by adding the app’s models to the project database.
+
+Run:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+These commands:
+
+* Create migration files (track changes to models).
+* Apply them to the database.
+
+---
+
+✅ Your `Post` model is now a real database table!
+
+In the next lesson, you’ll **add and manage data** using the Django admin.
+
+Type **`n`** to continue to **Lesson 10: Django Admin – Creating and Managing Posts**.
+
 ## Lesson 10
 
+You're on fire — let’s make your content manageable!
+
+---
+
+### ✅ **Lesson 10: Django Admin – Creating and Managing Posts**
+
+---
+
+#### 🎯 Objective:
+
+Use Django’s built-in admin interface to add, edit, and manage data for your `Post` model.
+
+---
+
+### 🛠️ Step 1: Create a Superuser
+
+First, you need a user who can access the admin dashboard.
+
+Run:
+
+```bash
+python manage.py createsuperuser
+```
+
+Enter:
+
+* Username
+* Email
+* Password
+
+---
+
+### 🔗 Step 2: Enable the Admin Interface
+
+Open `blog/admin.py` and register your `Post` model:
+
+```python
+from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)
+```
+
+---
+
+### ▶️ Step 3: Run the Server
+
+```bash
+python manage.py runserver
+```
+
+Visit:
+
+```
+http://127.0.0.1:8000/admin/
+```
+
+Log in using the superuser account you just created.
+
+You’ll see your **Post** model under the **Blog** section.
+
+---
+
+### ➕ Step 4: Add Some Posts
+
+* Click **"Posts"**
+* Click **"Add Post"**
+* Fill in the title and content
+* Save
+
+🎉 Now your data is stored in the database!
+
+---
+
+### ✅ Summary
+
+* Django admin gives you full **CRUD** access (Create, Read, Update, Delete).
+* This is one of Django’s best features — ready out of the box!
+
+---
+
+You're now managing data through a web interface!
+
+Type **`n`** to continue to **Lesson 11: Displaying Posts on Your Website**.
+
 ## Lesson 11
+
+Let’s bring your blog posts to life on the site!
+
+---
+
+### ✅ **Lesson 11: Displaying Posts on Your Website**
+
+---
+
+#### 🎯 Objective:
+
+Fetch and display blog posts from the database on your homepage using Django views and templates.
+
+---
+
+### 🧠 What You’ll Do:
+
+* Query the database for all posts
+* Pass them to a template
+* Render them in HTML
+
+---
+
+### 🛠️ Step 1: Update the View
+
+Open `blog/views.py` and update your `home` view:
+
+```python
+from django.shortcuts import render
+from .models import Post
+
+def home(request):
+    posts = Post.objects.all().order_by('-published')  # newest first
+    return render(request, 'blog/home.html', {'posts': posts})
+```
+
+---
+
+### 🧱 Step 2: Update the Template
+
+Edit `blog/templates/blog/home.html`:
+
+```django
+{% extends 'blog/base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2>Latest Posts</h2>
+    {% for post in posts %}
+        <article>
+            <h3>{{ post.title }}</h3>
+            <small>Published: {{ post.published|date:"F j, Y, g:i a" }}</small>
+            <p>{{ post.content|truncatewords:30 }}</p>
+        </article>
+        <hr>
+    {% empty %}
+        <p>No posts available.</p>
+    {% endfor %}
+{% endblock %}
+```
+
+---
+
+### 🧪 Step 3: Test It
+
+Start your server:
+
+```bash
+python manage.py runserver
+```
+
+Visit:
+
+```
+http://127.0.0.1:8000/
+```
+
+You should now see a list of posts fetched from the database!
+
+---
+
+### ✅ Summary
+
+You’ve just dynamically rendered data from the database in a clean HTML page.
+This is what modern web development is all about!
+
+---
+
+Type **`n`** to continue to **Lesson 12: Individual Post Pages – Detail Views**.
 
 ## Lesson 12
 
