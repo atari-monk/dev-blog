@@ -15,19 +15,6 @@ To completely remove your GitHub repository's history and replace it with a sing
    git push -u origin master --force
    ```
 
-## Method 2: Using Orphan Branch
-
-If you want to keep the same repository but wipe history:
-
-```bash
-git checkout --orphan newBranch
-git add -A  # Add all files
-git commit -m "Initial commit"  # or "Automation Tools"
-git branch -D master  # Delete the old master branch
-git branch -m master  # Rename current branch to master
-git push -f origin master  # Force push to GitHub
-```
-
 ## Important Notes
 
 - This will **permanently delete** all commit history
