@@ -1,4 +1,7 @@
----
-layout: default
 title: Dev Blog
----
+markdown: kramdown
+theme: minima
+
+defaults:
+    - values:
+          layout: default
