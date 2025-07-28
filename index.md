@@ -12,6 +12,9 @@
 ## fullscreen-canvas
 - [Temp](fullscreen-canvas\temp.html)
 
+## git
+- [Commit Messages](git\commit-messages.html)
+
 ## html
 - [Elements](html\elements.html)
 
