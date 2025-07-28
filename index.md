@@ -1,28 +1,27 @@
-# Blog Index
 
 ## Root
-- [Readme](README.md)
+- [Readme](README.html)
 
 ## css
-- [Style](css\style.md)
+- [Style](css\style.html)
 
 ## fullscreen-canvas
-- [Temp](fullscreen-canvas\temp.md)
+- [Temp](fullscreen-canvas\temp.html)
 
 ## html
-- [Elements](html\elements.md)
+- [Elements](html\elements.html)
 
 ## scripts
-- [Generate Blog Index Requirements](scripts\generate-blog-index-requirements.md)
-- [Py Console Script](scripts\py-console-script.md)
-- [Scripts Repository](scripts\scripts-repository.md)
-- [Type Checking](scripts\type-checking.md)
+- [Generate Blog Index Requirements](scripts\generate-blog-index-requirements.html)
+- [Py Console Script](scripts\py-console-script.html)
+- [Scripts Repository](scripts\scripts-repository.html)
+- [Type Checking](scripts\type-checking.html)
 
 ## strategy
-- [Lego Bricks](strategy\lego-bricks.md)
+- [Lego Bricks](strategy\lego-bricks.html)
 
 ## vite
-- [Component Lib](vite\component-lib.md)
-- [Enforcing Naming](vite\enforcing-naming.md)
-- [Naming Convention](vite\naming-convention.md)
-- [Setup](vite\setup.md)
+- [Component Lib](vite\component-lib.html)
+- [Enforcing Naming](vite\enforcing-naming.html)
+- [Naming Convention](vite\naming-convention.html)
+- [Setup](vite\setup.html)
