@@ -11,6 +11,11 @@
 ## html
 - [Elements](html\elements.html)
 
+## prompt
+- [Convert Javascript To Typescript](prompt\convert-javascript-to-typescript.html)
+- [Focus Drone Task List Gen](prompt\focus-drone-task-list-gen.html)
+- [Generate Py Script Form Reqs](prompt\generate-py-script-form-reqs.html)
+
 ## scripts
 - [Generate Blog Index Requirements](scripts\generate-blog-index-requirements.html)
 - [Py Console Script](scripts\py-console-script.html)
