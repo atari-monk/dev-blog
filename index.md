@@ -5,6 +5,10 @@
 ## css
 - [Style](css\style.html)
 
+## focus-drone\reports
+- [Test Component_Log_20250724_224545](focus-drone\reports\test-component_log_20250724_224545.html)
+- [Test Component_Log_20250727_122521](focus-drone\reports\test-component_log_20250727_122521.html)
+
 ## fullscreen-canvas
 - [Temp](fullscreen-canvas\temp.html)
 
