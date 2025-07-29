@@ -10,6 +10,8 @@
 - [Test Component_Log_20250727_122521](focus-drone\reports\test-component_log_20250727_122521.html)
 
 ## fullscreen-canvas
+- [Install](fullscreen-canvas\install.html)
+- [Project_Setup_Report](fullscreen-canvas\project_setup_report.html)
 - [Temp](fullscreen-canvas\temp.html)
 
 ## git
@@ -22,6 +24,7 @@
 - [Convert Javascript To Typescript](prompt\convert-javascript-to-typescript.html)
 - [Focus Drone Task List Gen](prompt\focus-drone-task-list-gen.html)
 - [Generate Py Script Form Reqs](prompt\generate-py-script-form-reqs.html)
+- [Scenelet Scene](prompt\scenelet-scene.html)
 
 ## scripts
 - [Generate Blog Index Requirements](scripts\generate-blog-index-requirements.html)
