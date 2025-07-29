@@ -4,6 +4,10 @@
 npm install @atari-monk/fullscreen-canvas
 ```
 
+```bash
+pnpm add @atari-monk/fullscreen-canvas
+```
+
 ## Usage
 
 ```jsx
