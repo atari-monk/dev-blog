@@ -2,6 +2,7 @@
     - [About](content\blog\about)
 - Llm
     - Prompt
+        - [Code Functionality](content\llm\prompt\code-functionality)
         - [Convert Javascript To Typescript](content\llm\prompt\convert-javascript-to-typescript)
         - [Focus Drone Task List Gen](content\llm\prompt\focus-drone-task-list-gen)
         - [Generate Py Script Form Reqs](content\llm\prompt\generate-py-script-form-reqs)
@@ -10,6 +11,8 @@
     - [Sanity](content\projects\sanity)
     - Fullscreen Canvas
         - [Install](content\projects\fullscreen-canvas\install)
+        - Functionality
+            - [Fullscreencanvas](content\projects\fullscreen-canvas\functionality\FullscreenCanvas)
 - Scripts
     - Focus Drone Reports
         - [Test Component Log 20250724 224545](content\scripts\focus-drone-reports\test-component-log-20250724-224545)
