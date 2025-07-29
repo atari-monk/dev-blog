@@ -1,6 +1,0 @@
-Write Start time in 'productivity' log
-Prepare prompt for testing component
-Run prompt
-Add test code to project
-Test it
-Confirm component is working
