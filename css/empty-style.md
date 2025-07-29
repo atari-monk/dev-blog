@@ -1,5 +1,3 @@
-# Css
-
 * Empty Style
     * Enforce fullscreen and dark background :
 
