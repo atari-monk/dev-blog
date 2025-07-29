@@ -19,6 +19,7 @@
         - [Commit Messages](content\tool\git\commit-messages)
     - Pnpm
         - [Basics](content\tool\pnpm\basics)
+        - [Publish Scoped Package](content\tool\pnpm\publish-scoped-package)
 - Web
     - Css
         - [Empty Style](content\web\css\empty-style)
