@@ -12,8 +12,8 @@
         - [Install](content\projects\fullscreen-canvas\install)
 - Scripts
     - Focus Drone Reports
-        - [Test Component_Log_20250724_224545](content\scripts\focus-drone-reports\test-component_log_20250724_224545)
-        - [Test Component_Log_20250727_122521](content\scripts\focus-drone-reports\test-component_log_20250727_122521)
+        - [Test Component Log 20250724 224545](content\scripts\focus-drone-reports\test-component-log-20250724-224545)
+        - [Test Component Log 20250727 122521](content\scripts\focus-drone-reports\test-component-log-20250727-122521)
 - Tool
     - Git
         - [Commit Messages](content\tool\git\commit-messages)
@@ -27,6 +27,9 @@
     - Html
         - [Elements](content\web\html\elements)
     - Vite
-        - [Cleanup](content\web\vite\cleanup)
         - [Cli](content\web\vite\cli)
-        - [React_Template_About](content\web\vite\react_template_about)
+        - React Template
+            - [About](content\web\vite\react-template\about)
+            - [Cleanup](content\web\vite\react-template\cleanup)
+        - Vanilla Template
+            - [Cleanup](content\web\vite\vanilla-template\cleanup)

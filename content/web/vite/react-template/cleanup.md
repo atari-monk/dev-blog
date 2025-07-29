@@ -37,4 +37,4 @@ export default App;
 ```
 
 * `index.css`:
-    - [Empty Style](../css/empty-style.md)
+    - [Empty Style](../../css/empty-style.md)
