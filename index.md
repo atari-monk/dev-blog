@@ -20,6 +20,7 @@
     - Pnpm
         - [Basics](content\tool\pnpm\basics)
         - [Publish Scoped Package](content\tool\pnpm\publish-scoped-package)
+        - [Version](content\tool\pnpm\version)
 - Web
     - Css
         - [Empty Style](content\web\css\empty-style)
