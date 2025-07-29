@@ -25,3 +25,4 @@
     - Vite
         - [Cleanup](content\web\vite\cleanup)
         - [Cli](content\web\vite\cli)
+        - [React_Template_About](content\web\vite\react_template_about)

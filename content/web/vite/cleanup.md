@@ -1,18 +1,40 @@
 ## 🧹 Cleanup Vite React Template
 
-* Cleared `App.css` and `index.css`.
-* Updated `App.tsx`:
+```sh
+/
+├── public/
+│   └── vite.svg (delete)
+├── src/
+│   ├── assets/
+│   │   └── react.svg (delete)
+│   ├── App.css (empty)
+│   ├── App.tsx (replace)
+│   ├── index.css (replace)
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── README.md (replace)
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
 
-  ```tsx
-  import "./App.css";
+* `App.tsx`:
 
-  function App() {
-      return <></>;
-  }
+```tsx
+import "./App.css";
 
-  export default App;
-  ```
+function App() {
+    return <></>;
+}
 
-### 🧹 Css
+export default App;
+```
 
-* Updated `index.css` to [Empty Style](../css/empty-style.md)
+* `index.css`:
+    - [Empty Style](../css/empty-style.md)
