@@ -1,26 +1,26 @@
 - Blog
-    - [Readme](blog\readme)
+    - [Readme](content\blog\readme)
 - Llm
     - Prompt
-        - [Convert Javascript To Typescript](llm\prompt\convert-javascript-to-typescript)
-        - [Focus Drone Task List Gen](llm\prompt\focus-drone-task-list-gen)
-        - [Generate Py Script Form Reqs](llm\prompt\generate-py-script-form-reqs)
-        - [Scenelet Scene](llm\prompt\scenelet-scene)
+        - [Convert Javascript To Typescript](content\llm\prompt\convert-javascript-to-typescript)
+        - [Focus Drone Task List Gen](content\llm\prompt\focus-drone-task-list-gen)
+        - [Generate Py Script Form Reqs](content\llm\prompt\generate-py-script-form-reqs)
+        - [Scenelet Scene](content\llm\prompt\scenelet-scene)
 - Projects
     - Fullscreen Canvas
-        - [Install](projects\fullscreen-canvas\install)
+        - [Install](content\projects\fullscreen-canvas\install)
 - Scripts
     - Focus Drone Reports
-        - [Test Component_Log_20250724_224545](scripts\focus-drone-reports\test-component_log_20250724_224545)
-        - [Test Component_Log_20250727_122521](scripts\focus-drone-reports\test-component_log_20250727_122521)
+        - [Test Component_Log_20250724_224545](content\scripts\focus-drone-reports\test-component_log_20250724_224545)
+        - [Test Component_Log_20250727_122521](content\scripts\focus-drone-reports\test-component_log_20250727_122521)
 - Tool
     - Git
-        - [Commit Messages](tool\git\commit-messages)
+        - [Commit Messages](content\tool\git\commit-messages)
 - Web
     - Css
-        - [Empty Style](web\css\empty-style)
+        - [Empty Style](content\web\css\empty-style)
     - Html
-        - [Elements](web\html\elements)
+        - [Elements](content\web\html\elements)
     - Vite
-        - [Cleanup](web\vite\cleanup)
-        - [Cli](web\vite\cli)
+        - [Cleanup](content\web\vite\cleanup)
+        - [Cli](content\web\vite\cli)
