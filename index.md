@@ -1,29 +1,26 @@
-
-## Root
-- [Readme](readme)
-
-## Css
-- [Empty Style](css\empty-style)
-
-## Focus-drone-reports
-- [Test Component_Log_20250724_224545](focus-drone-reports\test-component_log_20250724_224545)
-- [Test Component_Log_20250727_122521](focus-drone-reports\test-component_log_20250727_122521)
-
-## Fullscreen-canvas
-- [Install](fullscreen-canvas\install)
-
-## Git
-- [Commit Messages](git\commit-messages)
-
-## Html
-- [Elements](html\elements)
-
-## Prompt
-- [Convert Javascript To Typescript](prompt\convert-javascript-to-typescript)
-- [Focus Drone Task List Gen](prompt\focus-drone-task-list-gen)
-- [Generate Py Script Form Reqs](prompt\generate-py-script-form-reqs)
-- [Scenelet Scene](prompt\scenelet-scene)
-
-## Vite
-- [Cleanup](vite\cleanup)
-- [Cli](vite\cli)
+- Blog
+    - [Readme](blog\readme)
+- Llm
+    - Prompt
+        - [Convert Javascript To Typescript](llm\prompt\convert-javascript-to-typescript)
+        - [Focus Drone Task List Gen](llm\prompt\focus-drone-task-list-gen)
+        - [Generate Py Script Form Reqs](llm\prompt\generate-py-script-form-reqs)
+        - [Scenelet Scene](llm\prompt\scenelet-scene)
+- Projects
+    - Fullscreen Canvas
+        - [Install](projects\fullscreen-canvas\install)
+- Scripts
+    - Focus Drone Reports
+        - [Test Component_Log_20250724_224545](scripts\focus-drone-reports\test-component_log_20250724_224545)
+        - [Test Component_Log_20250727_122521](scripts\focus-drone-reports\test-component_log_20250727_122521)
+- Tool
+    - Git
+        - [Commit Messages](tool\git\commit-messages)
+- Web
+    - Css
+        - [Empty Style](web\css\empty-style)
+    - Html
+        - [Elements](web\html\elements)
+    - Vite
+        - [Cleanup](web\vite\cleanup)
+        - [Cli](web\vite\cli)
