@@ -17,6 +17,8 @@
 - Tool
     - Git
         - [Commit Messages](content\tool\git\commit-messages)
+    - Pnpm
+        - [Basics](content\tool\pnpm\basics)
 - Web
     - Css
         - [Empty Style](content\web\css\empty-style)

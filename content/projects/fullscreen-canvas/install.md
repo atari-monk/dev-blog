@@ -10,7 +10,7 @@ pnpm add @atari-monk/fullscreen-canvas
 
 ## Usage
 
-```jsx
-import { FullscreenCanvas } from "@atari-monk/fullscreen-canvas";
+```tsx
 import "@atari-monk/fullscreen-canvas/FullscreenCanvas.css";
+import { FullscreenCanvas } from "@atari-monk/fullscreen-canvas";
 ```
