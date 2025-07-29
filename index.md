@@ -1,5 +1,5 @@
 - Blog
-    - [Readme](content\blog\readme)
+    - [About](content\blog\about)
 - Llm
     - Prompt
         - [Convert Javascript To Typescript](content\llm\prompt\convert-javascript-to-typescript)
@@ -7,6 +7,7 @@
         - [Generate Py Script Form Reqs](content\llm\prompt\generate-py-script-form-reqs)
         - [Scenelet Scene](content\llm\prompt\scenelet-scene)
 - Projects
+    - [Sanity](content\projects\sanity)
     - Fullscreen Canvas
         - [Install](content\projects\fullscreen-canvas\install)
 - Scripts
