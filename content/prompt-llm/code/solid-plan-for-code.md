@@ -1,5 +1,12 @@
-Analyze the following code snippet with respect to the SOLID principles of object-oriented design (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion). Provide a clear, concise list of specific refactoring suggestions that would improve the code’s adherence to each applicable SOLID principle.
-
-Focus on practical, impactful changes that enhance maintainability, extensibility, and clarity, but do not propose any changes that would alter or break the existing functionality. The current behavior and output of the code must be preserved exactly.
-
-Avoid vague or generic comments; instead, pinpoint exact areas or patterns in the code that could benefit from refactoring, and briefly explain why and how. The goal is to improve design quality while keeping the code’s functionality sacred and intact.
+* Name: SOLID Code Analysis and Refactoring  
+* Purpose / Goal: To analyze a code snippet for adherence to SOLID principles and provide specific refactoring suggestions without altering functionality.  
+* Input Data: A code snippet to be analyzed.  
+* Constraints / Requirements:  
+  - Preserve existing functionality and output.  
+  - Focus on practical, impactful changes.  
+  - Avoid vague or generic comments.  
+* Task / Action:  
+  - Analyze the code with respect to each SOLID principle.  
+  - Provide clear, concise refactoring suggestions for improving adherence to applicable SOLID principles.  
+  - Explain why and how each suggestion would enhance maintainability, extensibility, or clarity.  
+* Expected Output / Format: A list of specific refactoring suggestions, each tied to a SOLID principle, with brief explanations.
