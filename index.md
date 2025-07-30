@@ -1,18 +1,36 @@
+- Ai
+    - [Poor Mans Llm Parallelization](content\ai\poor-mans-llm-parallelization)
 - Blog
     - [About](content\blog\about)
-- Llm
-    - Prompt
-        - [Code Functionality](content\llm\prompt\code-functionality)
-        - [Convert Javascript To Typescript](content\llm\prompt\convert-javascript-to-typescript)
-        - [Focus Drone Task List Gen](content\llm\prompt\focus-drone-task-list-gen)
-        - [Generate Py Script Form Reqs](content\llm\prompt\generate-py-script-form-reqs)
-        - [Scenelet Scene](content\llm\prompt\scenelet-scene)
 - Projects
     - [Sanity](content\projects\sanity)
     - Fullscreen Canvas
         - [Install](content\projects\fullscreen-canvas\install)
         - Functionality
             - [Fullscreencanvas](content\projects\fullscreen-canvas\functionality\FullscreenCanvas)
+    - Fullscreen Canvas Vanilla
+        - [Analyze Code Functionality](content\projects\fullscreen-canvas-vanilla\analyze-code-functionality)
+        - [Component Improvement Pipeline Generator](content\projects\fullscreen-canvas-vanilla\component-improvement-pipeline-generator)
+        - [Refactor Code For Solid Principles](content\projects\fullscreen-canvas-vanilla\refactor-code-for-solid-principles)
+    - Productivity
+        - [About](content\projects\productivity\about)
+- Prompt Llm
+    - Code Analysis And Optimization
+        - [Analyze Code Functionality](content\prompt-llm\code-analysis-and-optimization\analyze-code-functionality)
+        - [Component Improvement Pipeline Generator](content\prompt-llm\code-analysis-and-optimization\component-improvement-pipeline-generator)
+        - [Refactor Code For Solid Principles](content\prompt-llm\code-analysis-and-optimization\refactor-code-for-solid-principles)
+    - Code Generation And Conversion
+        - [Convert Javascript To Typescript Modern](content\prompt-llm\code-generation-and-conversion\convert-javascript-to-typescript-modern)
+        - [Generate Python Cli Script Modular](content\prompt-llm\code-generation-and-conversion\generate-python-cli-script-modular)
+        - [Generate Typescript Scene Implementation](content\prompt-llm\code-generation-and-conversion\generate-typescript-scene-implementation)
+    - Task Automation And Workflow
+        - [Universal Prompt Generator](content\prompt-llm\task-automation-and-workflow\universal-prompt-generator)
+        - Focus Drone
+            - [Generate Task List From Requirements](content\prompt-llm\task-automation-and-workflow\focus-drone\generate-task-list-from-requirements)
+    - Text And Documentation
+        - [Kebab Case Filename Generator](content\prompt-llm\text-and-documentation\kebab-case-filename-generator)
+        - [Prompt Standardization Instruction](content\prompt-llm\text-and-documentation\prompt-standardization-instruction)
+        - [Rewrite Text Better](content\prompt-llm\text-and-documentation\rewrite-text-better)
 - Scripts
     - Focus Drone Reports
         - [Test Component Log 20250724 224545](content\scripts\focus-drone-reports\test-component-log-20250724-224545)
