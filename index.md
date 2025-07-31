@@ -4,15 +4,20 @@
     - [About](content\blog\about)
 - Projects
     - [Sanity](content\projects\sanity)
+    - Django Blog
+        - [Initial Setup](content\projects\django-blog\initial-setup)
     - Fullscreen Canvas
         - [Install](content\projects\fullscreen-canvas\install)
         - Functionality
             - [Fullscreencanvas](content\projects\fullscreen-canvas\functionality\FullscreenCanvas)
     - Fullscreen Canvas Vanilla
+        - [Canvas Engine Relation](content\projects\fullscreen-canvas-vanilla\canvas-engine-relation)
         - [Code Base Snapshot 2025 07 31](content\projects\fullscreen-canvas-vanilla\code-base-snapshot-2025-07-31)
         - [Refactor Code For Solid Principles](content\projects\fullscreen-canvas-vanilla\refactor-code-for-solid-principles)
     - Productivity
         - [About](content\projects\productivity\about)
+    - Text Game
+        - [Initial Design](content\projects\text-game\initial-design)
 - Prompt Llm
     - Code Analysis And Optimization
         - [Analyze Code Functionality](content\prompt-llm\code-analysis-and-optimization\analyze-code-functionality)
@@ -35,6 +40,8 @@
     - Focus Drone Reports
         - [Test Component Log 20250724 224545](content\scripts\focus-drone-reports\test-component-log-20250724-224545)
         - [Test Component Log 20250727 122521](content\scripts\focus-drone-reports\test-component-log-20250727-122521)
+- Strategy
+    - [In Out](content\strategy\in-out)
 - Tool
     - Git
         - [Commit Messages](content\tool\git\commit-messages)
