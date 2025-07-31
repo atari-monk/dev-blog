@@ -17,6 +17,7 @@
 - Prompt Llm
     - Code Analysis And Optimization
         - [Analyze Code Functionality](content\prompt-llm\code-analysis-and-optimization\analyze-code-functionality)
+        - [Codebase Functional Snapshot Generator](content\prompt-llm\code-analysis-and-optimization\codebase-functional-snapshot-generator)
         - [Component Improvement Pipeline Generator](content\prompt-llm\code-analysis-and-optimization\component-improvement-pipeline-generator)
         - [Refactor Code For Solid Principles](content\prompt-llm\code-analysis-and-optimization\refactor-code-for-solid-principles)
     - Code Generation And Conversion
