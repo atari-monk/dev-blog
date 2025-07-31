@@ -1,4 +1,4 @@
-# SOLID Code Analysis and Refactoring
+# SOLID Code Analysis and Refactoring (Implemented)
 
 ## Analysis of the Current Implementation
 

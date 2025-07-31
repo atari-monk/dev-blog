@@ -9,8 +9,7 @@
         - Functionality
             - [Fullscreencanvas](content\projects\fullscreen-canvas\functionality\FullscreenCanvas)
     - Fullscreen Canvas Vanilla
-        - [Analyze Code Functionality](content\projects\fullscreen-canvas-vanilla\analyze-code-functionality)
-        - [Component Improvement Pipeline Generator](content\projects\fullscreen-canvas-vanilla\component-improvement-pipeline-generator)
+        - [Code Base Snapshot 2025 07 31](content\projects\fullscreen-canvas-vanilla\code-base-snapshot-2025-07-31)
         - [Refactor Code For Solid Principles](content\projects\fullscreen-canvas-vanilla\refactor-code-for-solid-principles)
     - Productivity
         - [About](content\projects\productivity\about)
