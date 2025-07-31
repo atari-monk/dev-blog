@@ -13,6 +13,7 @@
     - Fullscreen Canvas Vanilla
         - [Canvas Engine Relation](content\projects\fullscreen-canvas-vanilla\canvas-engine-relation)
         - [Code Base Snapshot 2025 07 31](content\projects\fullscreen-canvas-vanilla\code-base-snapshot-2025-07-31)
+        - [Overview 2025 07 31](content\projects\fullscreen-canvas-vanilla\overview-2025-07-31)
         - [Refactor Code For Solid Principles](content\projects\fullscreen-canvas-vanilla\refactor-code-for-solid-principles)
     - Productivity
         - [About](content\projects\productivity\about)
