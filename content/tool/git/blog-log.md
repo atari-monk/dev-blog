@@ -19,7 +19,7 @@ git add . && git commit -m "Update content" && git push origin master
 ## Override commit
 
 ```bash
-git add . && git commit --amend -m "Update content" && git push origin master
+git add . && git commit --amend -m "Update content" && git push --force origin master
 ```
 
 will **combine** your newly staged changes (`git add .`) with the **previous commit**, and **replace** that previous commit with the new one using the new message `"Update content"`.
