@@ -2,8 +2,6 @@
 
 ## Directories
 
-- [Documentation](documentation/index.md)
+- [Code_Base_Documentation](code_base_documentation/index.md)
+- [Documentation_Plan](documentation_plan/index.md)
 
-## Files
-
-- [Components](components.md)
