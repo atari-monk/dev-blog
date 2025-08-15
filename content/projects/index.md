@@ -10,6 +10,7 @@
 - [Text Game](text-game/index.md)
 - [Zippy](zippy/index.md)
 - [Zippy Shared Lib](zippy-shared-lib/index.md)
+- [Zippy Test](zippy-test/index.md)
 
 ## Files
 
