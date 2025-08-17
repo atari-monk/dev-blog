@@ -8,3 +8,7 @@
 ## Files
 
 - [Cli](cli.md)
+- [Component Lib](component-lib.md)
+- [Enforcing Naming](enforcing-naming.md)
+- [Naming Convention](naming-convention.md)
+- [Setup](setup.md)
