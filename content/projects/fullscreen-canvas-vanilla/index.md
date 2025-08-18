@@ -2,5 +2,10 @@
 
 ## Directories
 
-- [Documentation](documentation/index.md)
+- [Code](code/index.md)
 
+## Files
+
+- [Package](package.md)
+- [Tsconfig](tsconfig.md)
+- [Usage](usage.md)

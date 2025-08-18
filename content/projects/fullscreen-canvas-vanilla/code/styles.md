@@ -1,4 +1,4 @@
-# Styles Documentation (High level overview)
+# Styles Documentation
 
 ## canvas-container 
 
