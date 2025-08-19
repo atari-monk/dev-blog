@@ -1,4 +1,4 @@
-# Touch System Documentation (High level overview)
+# TouchSystem
 
 ## Functionality
 
@@ -20,6 +20,7 @@
 - Registers touch event listeners (touchstart, touchmove, touchend) on the canvas.
 - Prevents default behavior for touch events.
 - Handles touch events through private methods.
+- Uses passive: false and capture: false options for event listeners.
 
 #### getCount
 
@@ -39,5 +40,5 @@
 #### #handleTouchEvent
 
 - Takes a TouchEvent and canvas element.
-- Updates touch positions relative to the canvas.
+- Updates touch positions relative to the canvas by calculating client coordinates minus canvas offset.
 - Stores touch positions in the touches Map.

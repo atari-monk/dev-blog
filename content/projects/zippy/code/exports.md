@@ -1,4 +1,4 @@
-# Core Exports Documentation
+# Exports
 
 ## GameEngineFactory
 - Factory class for creating GameEngine instances

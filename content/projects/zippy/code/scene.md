@@ -1,4 +1,4 @@
-# Scene Interface Documentation (High level overview)
+# Scene Interface
 
 ## Functionality
 

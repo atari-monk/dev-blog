@@ -1,4 +1,4 @@
-# Class_name Documentation (High level overview)
+# Class_name
 
 ## Functionality
 

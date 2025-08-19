@@ -1,4 +1,4 @@
-# Create Game Canvas Factory Documentation
+# Fullscreen Canvas Factory
 
 ## Functionality
 

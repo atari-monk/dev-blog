@@ -1,4 +1,4 @@
-# Fullscreen Canvas Documentation
+# Fullscreen Canvas
 
 ## Functionality
 

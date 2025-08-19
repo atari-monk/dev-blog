@@ -1,4 +1,4 @@
-# Fullscreen Button Component Documentation
+# Fullscreen Button Component
 
 ## Functionality
 

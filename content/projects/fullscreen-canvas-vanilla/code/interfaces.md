@@ -1,4 +1,4 @@
-# Interfaces Documentation
+# Interfaces
 
 ## Functionality
 

@@ -1,4 +1,4 @@
-# Package Configuration Documentation (`package.json`)
+# Package Configuration (`package.json`)
 
 ## Project Overview
 This is an npm package providing a fullscreen canvas component built with vanilla JavaScript/TypeScript. The package is designed to be imported as an ES module (`"type": "module"`).

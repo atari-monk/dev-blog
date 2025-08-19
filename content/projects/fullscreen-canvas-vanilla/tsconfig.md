@@ -1,4 +1,4 @@
-# TypeScript Configuration Documentation (`tsconfig.json`)
+# TypeScript Configuration (`tsconfig.json`)
 
 This configuration file sets up TypeScript compilation for an npm package project featuring a fullscreen canvas component. Below is the breakdown:
 

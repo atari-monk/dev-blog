@@ -1,4 +1,4 @@
-# GameEngineFactory Documentation (High level overview)
+# Game Engine Factory
 
 ## Functionality
 

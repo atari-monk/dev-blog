@@ -1,4 +1,4 @@
-# Time Calculator Documentation
+# Time Calculator
 
 ## Functionality
 
@@ -12,7 +12,7 @@ The TimeCalculator class provides time tracking utilities for animation/game loo
 
 ### Public Methods
 
-#### `calculate(time: number): TimeData`
+#### `calculate`
 
 Calculates and returns time metrics for the current frame:
 
@@ -31,7 +31,7 @@ Calculates and returns time metrics for the current frame:
   - `totalTime`: number - Total elapsed time since reset in seconds
   - `lastTime`: number - Last frame timestamp in milliseconds
 
-#### `reset(): void`
+#### `reset`
 
 Resets all internal time tracking:
 - Sets `lastTime` to 0

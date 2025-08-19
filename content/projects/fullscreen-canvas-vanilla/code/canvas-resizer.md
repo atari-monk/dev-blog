@@ -1,4 +1,4 @@
-# Canvas Resizer Documentation
+# Canvas Resizer
 
 ## Functionality
 
@@ -13,19 +13,19 @@ The `CanvasResizer` class manages responsive resizing of an HTMLCanvasElement, e
 
 ### Public Methods
 
-#### `constructor(canvas: HTMLCanvasElement)`
+#### `constructor`
 - Initializes the resizer with a target canvas element
 - Sets canvas CSS dimensions to 100% of its container
 - Sets up resize observers and performs initial resize
 
-#### `resize(): void`
+#### `resize`
 - Calculates new canvas dimensions based on:
   - Current container size (via getBoundingClientRect)
   - Device pixel ratio
 - Only updates canvas dimensions if they've actually changed
 - Dispatches "canvas-resized" event when changes occur
 
-#### `destroy(): void`
+#### `destroy`
 - Cleans up all resources:
   - Cancels any pending resize timers
   - Disconnects the ResizeObserver
@@ -33,12 +33,12 @@ The `CanvasResizer` class manages responsive resizing of an HTMLCanvasElement, e
 
 ### Private Methods
 
-#### `setupEventListeners(): void`
+#### `setupEventListeners`
 - Initializes ResizeObserver to monitor canvas container
 - Implements debounced (100ms) resize handling
 - Prevents multiple rapid resize operations
 
-#### `dispatchResizeEvent(): void`
+#### `dispatchResizeEvent`
 - Creates and dispatches a "canvas-resized" CustomEvent with details:
   - New canvas width (in pixels)
   - New canvas height (in pixels)

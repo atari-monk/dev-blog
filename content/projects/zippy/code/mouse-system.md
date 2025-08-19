@@ -1,4 +1,4 @@
-# Mouse System Documentation (High level overview)
+# Mouse System
 
 ## Functionality
 
@@ -20,11 +20,12 @@
 
 #### setupCanvasEvents
 
-- Takes canvas element and registers mouse event handlers:
+- Takes canvas element (HTMLElement) and registers mouse event handlers:
   - `mousemove` - tracks cursor position relative to canvas
   - `mousedown` - sets button state to true
   - `mouseup` - sets button state to false
-  - `wheel` - tracks vertical scroll delta
+  - `wheel` - tracks vertical scroll delta and prevents default behavior
+- Uses `{ passive: false }` options for all events to allow preventDefault()
 
 #### update
 

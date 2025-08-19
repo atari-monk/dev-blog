@@ -1,10 +1,11 @@
-# InputSystem Documentation (High level overview)
+# InputSystem
 
 ## Functionality
 
-- Acts as a central hub for all input systems (keyboard, mouse, gamepads, and touch).
-- Manages initialization and updates of all input subsystems.
+- Acts as a central hub for input systems (keyboard, mouse, gamepads, and touch).
+- Manages initialization of all input subsystems.
 - Provides canvas event setup for mouse and touch inputs.
+- Handles frame updates for gamepad and mouse state tracking.
 
 ## Implementation
 
@@ -12,11 +13,11 @@
 
 #### Constructor
 
-- Initializes all input subsystems:
-  - `KeyboardSystem`
-  - `MouseSystem`
-  - `GamepadInputProcessor`
-  - `TouchSystem`
+- Initializes all input subsystems as readonly properties:
+  - `keyboard`: KeyboardSystem instance
+  - `mouse`: MouseSystem instance  
+  - `gamepads`: GamepadInputProcessor instance
+  - `touches`: TouchSystem instance
 
 #### setupCanvasEvents
 
