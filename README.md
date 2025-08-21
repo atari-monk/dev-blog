@@ -1,11 +1,9 @@
 # 🧘‍♂️ Atari Monk — Dev Blog
 
-Dev notes to aid develpment.
+Dev notes to aid develpment.  
 
 ## Project Structure
 
-"Simplest is often best".
-
-Folders are category.
-
-Posts in markdown files.
+"Simplest is often best".  
+Folders are category.  
+Posts in markdown files.  

@@ -1,9 +1,10 @@
 # Zippy Shared Lib
 
+## Directories
+
+- [Code](code/index.md)
+
 ## Files
 
-- [Engine Hook](engine-hook.md)
-- [Exports](exports.md)
-- [Frame Context](frame-context.md)
 - [Package](package.md)
 - [Tsconfig](tsconfig.md)

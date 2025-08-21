@@ -1,4 +1,4 @@
-# Zippy
+# Zippy Game Engine
 
 ## Directories
 
