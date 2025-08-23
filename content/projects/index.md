@@ -6,6 +6,9 @@
 - [Django Blog](django-blog/index.md)
 - [Fullscreen Canvas](fullscreen-canvas/index.md)
 - [Fullscreen Canvas Vanilla](fullscreen-canvas-vanilla/index.md)
+- [Mind Dump](mind-dump/index.md)
+- [Productivity](productivity/index.md)
+- [Scenelet](scenelet/index.md)
 - [Text Game](text-game/index.md)
 - [Zippy Game Engine](zippy-game-engine/index.md)
 - [Zippy Shared Lib](zippy-shared-lib/index.md)
@@ -13,5 +16,4 @@
 
 ## Files
 
-- [Productivity](productivity.md)
 - [Sanity](sanity.md)

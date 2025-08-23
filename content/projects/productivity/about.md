@@ -1,4 +1,4 @@
-# This is a 'productivity' support repository.
+# This is about 'productivity' support repository.
 
 The point is to measure projects development with logs.
 
