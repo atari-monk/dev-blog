@@ -19,3 +19,5 @@
 ## Files
 
 - [About](about.md)
+- [To Do](to-do.md)
+- [Visual Studio Code](visual-studio-code.md)
