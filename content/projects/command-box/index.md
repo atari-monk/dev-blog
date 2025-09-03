@@ -2,6 +2,6 @@
 
 ## Files
 
-- [001 Idea](001-idea.md)
-- [002 Stack](002-stack.md)
-- [003 Mvp](003-mvp.md)
+- [1. Idea](1.-idea.md)
+- [2. Stack](2.-stack.md)
+- [3. Mvp](3.-mvp.md)
