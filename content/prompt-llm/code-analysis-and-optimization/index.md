@@ -2,7 +2,6 @@
 
 ## Files
 
-- [Analyze Code Functionality](analyze-code-functionality.md)
 - [Class Maintenance Set](class-maintenance-set.md)
 - [Codebase Capability Summary](codebase-capability-summary.md)
 - [Codebase Functional Snapshot Generator](codebase-functional-snapshot-generator.md)

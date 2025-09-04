@@ -2,6 +2,5 @@
 
 ## Files
 
-- [Basics Reference](basics-reference.md)
-- [Basics](basics.md)
 - [Commands](commands.md)
+- [Script Alias](script-alias.md)
