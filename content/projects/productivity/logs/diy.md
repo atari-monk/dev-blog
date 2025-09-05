@@ -1,23 +1,23 @@
-## 2025-08-23
+# diy
 
-**Time:** 1h30m
+## Session 2025-07-21 2h 30m
 
-- Cut 2m, 1m20cm, 50cm branches x ~30 with hand saw
-- From parents ganden cutouts
-- Stored them on 2 bricks above ground
-- Logs on the ground
+- Tray for laptop, for articulated arm
 
+## Session 2025-07-25 10h 30m
 
-## 2025-08-22
+- Rotating base for articulated arm
+- Sorting trash in garage full of trash
+- Taking out cart to wheel table saw
+- Drilling, gluing, table saw cutting
 
-**Time:** 30m
+## Session 2025-07-26 12h 0m
 
-- Cut 2m branch x 4 with hand saw (from parents ganden cutouts)
+- Rotating base for articulated arm
+- 4 threaded rods to connect arm to base
+- Glued plywood blocks to friction hold arms in place
 
-
-## 2025-08-04
-
-**Time:** 4h20m
+## Session 2025-08-04 4h 20m
 
 - Hand saw bench
 - Cut >= 10x10 wood for legs with Table saw
@@ -26,28 +26,38 @@
 - Helped parents to bolt in their sitting bench, metal legs to boards
 - Cut little boards, for phone stand articulated arm, with new hand saw bench
 
+## Session 2025-08-22 0h 30m
 
-## 2025-07-26
+- Cut 2m branch x 4 with hand saw (from parents ganden cutouts)
 
-**Time:** 12h
+## Session 2025-08-23 1h 30m
 
-- Rotating base for articulated arm
-- 4 threaded rods to connect arm to base
-- Glued plywood blocks to friction hold arms in place
+- Cut 2m, 1m20cm, 50cm branches x ~30 with hand saw
+- From parents garden cutouts
+- Stored them on 2 bricks above ground
+- Logs on the ground
 
+## Session 2025-08-26 1h 0m
 
-## 2025-07-25
+- Made 2 garden planters from trees cut in lot
+- Made 2m, 1.2m, 0,5m twigs
+- Put them into 2 rectangles
+- Long and short prependicular to each other
+- Long, short, long, short and so on, on top of each other
 
-**Time:** 10h30m
+## Session 2025-08-27 0h 40m
 
-- Rotating base for articulated arm
-- Sorting trash in garage full of trash
-- Taking out cart to wheel table saw
-- Drilling, gluing, table saw cutting
+- Processed couple of twigs
+- Finished main structure
+- Started cutting 50cm twigs for inside walls of garden bed
 
+## Session 2025-09-01 2h 0m
 
-## 2025-07-21
+- Took bark of from log (1h)
+- Made diy mill out of ladder, wooden tray and chainsaw but parts dont fit, but it was close, this could be done (30m)
+- Took bark of from log (30m)
 
-**Time:** 2h30m
+## Session 2025-09-02 0h 0m
 
-- Tray for laptop, for articulated arm
+- I have no say on the plot therfore i concluded i wont do anything here, no point
+- No need for pointless slavery among brainwashed

@@ -1,24 +1,6 @@
-## 2025-08-21
+# rock-paper-scissors
 
-**Time:** 1h
-
-- Used new zippy libs versions
-- Published version 0.0.2
-
-
-## 2025-07-28
-
-**Time:** 20m
-
-- Investigate bug of clicking not working on mobile
-- Implemented
-- Published
-- Tested
-
-
-## 2025-07-27
-
-**Time:** 2h
+## Session 2025-07-27 2h 0m
 
 - Project structure
 - Generate project
@@ -26,3 +8,15 @@
 - Istalled 'zippy'
 - Convesion from js to ts
 - Published
+
+## Session 2025-07-28 0h 20m
+
+- Investigate bug of clicking not working on mobile
+- Implemented
+- Published
+- Tested
+
+## Session 2025-08-21 1h 0m
+
+- Used new zippy libs versions
+- Published version 0.0.2

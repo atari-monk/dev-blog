@@ -1,5 +1,5 @@
-## 2025-07-20
+# assets
 
-**Time:** 1h
+## Session 2025-07-20 1h 0m
 
 - Categorized assets in folder

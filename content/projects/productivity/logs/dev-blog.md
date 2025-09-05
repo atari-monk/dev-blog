@@ -1,45 +1,15 @@
-## 2025-08-21
+# dev-blog
 
-**Time:** 5m
+## Session 2025-07-21 1h 0m
 
-- Flatten categories
+- Initial project setup
+- Doc to setup 'fullscreen-canvas' project
 
+## Session 2025-07-28 1h 0m
 
-## 2025-08-06
+- Prompt to generate scene for 'scenelet' project
 
-**Time:** 0m
-
-- Fix this file to comply with new format
-- Fix git history (reset history, 'Initial commit' then only 'Update content')
-- Fix index.md
-- Added new posts
-
-
-## 2025-08-05
-
-**Time:** 20m
-
-- Reset git history
-
-
-## 2025-08-02
-
-**Time:** 15m
-
-- Generate prompts
-
-
-## 2025-07-31
-
-**Time:** 1h40m
-
-- Prompts for generating documentations of code base
-- Added notes from chatting with LLM
-
-
-## 2025-07-30
-
-**Time:** 3h
+## Session 2025-07-30 3h 0m
 
 - Refactored prompts collection
 - Standarized format
@@ -49,17 +19,26 @@
 - Script tool to generate new files
 - Doc on LLM chats
 
+## Session 2025-07-31 1h 40m
 
-## 2025-07-28
+- Prompts for generating documentations of code base
+- Added notes from chatting with LLM
 
-**Time:** 1h
+## Session 2025-08-02 0h 15m
 
-- Prompt to generate scene for 'scenelet' project
+- Generate prompts
 
+## Session 2025-08-05 0h 20m
 
-## 2025-07-21
+- Reset git history
 
-**Time:** 1h
+## Session 2025-08-06 0h 0m
 
-- Initial project setup
-- Doc to setup 'fullscreen-canvas' project
+- Fix this file to comply with new format
+- Fix git history (reset history, 'Initial commit' then only 'Update content')
+- Fix index.md
+- Added new posts
+
+## Session 2025-08-21 0h 5m
+
+- Flatten categories

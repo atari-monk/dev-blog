@@ -1,13 +1,10 @@
-## 2025-07-21
+# game-hub
 
-**Time:** 15m
-
-- Publish game hub into 'pages' repository
-
-
-## 2025-07-20
-
-**Time:** 2h
+## Session 2025-07-20 2h 0m
 
 - Initial project setup, vite typescript
 - Rewrite to typescript
+
+## Session 2025-07-21 0h 15m
+
+- Publish game hub into 'pages' repository
