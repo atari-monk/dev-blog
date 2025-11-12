@@ -1,0 +1,19 @@
+- Dev
+    - [Ergonomic Setup](post/dev/ergonomic-setup.md)
+    - [Powershell](post/dev/powershell.md)
+    - [Procedural Programming](post/dev/procedural-programming.md)
+    - [Prompts](post/dev/prompts.md)
+    - [Rules](post/dev/rules.md)
+- Pet Project
+    - [Blog](post/proj/blog.md)
+    - [Checkpoint](post/proj/checkpoint.md)
+    - [CV](post/proj/cv.md)
+    - Script
+        - [Script](post/proj/script/script.md)
+        - [Tree](post/proj/script/tree.md)
+- Web
+    - Hiding Elements
+        - [Basic](post/web/hiding-elements/basic.md)
+        - [Animated](post/web/hiding-elements/animated.md)
+- Links
+    - [Links](post/links.md)
