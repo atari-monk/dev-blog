@@ -19,9 +19,11 @@
     - [Ergonomic Setup](post/dev/ergonomic-setup.md)
     - [Powershell](post/dev/powershell.md)
     - [Rules](post/dev/rules.md)
-- Links
-    - [Links](post/links.md)
+    - [Work Logs](post/dev/work-logs.md)
 - Idea
+    - [Blog Visualization](post/idea/blog-visualization.md)
     - [Canvas Path](post/idea/canvas-path.md)
     - [Path Data Model](post/idea/path-data-model.md)
     - [Sleep Page](post/idea/sleep-page.md)
+- Links
+    - [Links](post/links.md)
