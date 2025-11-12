@@ -9,11 +9,15 @@
     - [Checkpoint](post/proj/checkpoint.md)
     - [CV](post/proj/cv.md)
     - Script
-        - [Script](post/proj/script/script.md)
-        - [Tree](post/proj/script/tree.md)
+        - [Script](post/proj-script/script.md)
+        - [Tree](post/proj-script/tree.md)
 - Web
     - Hiding Elements
-        - [Basic](post/web/hiding-elements/basic.md)
-        - [Animated](post/web/hiding-elements/animated.md)
+        - [Basic](post/web/hiding-elements-basic.md)
+        - [Animated](post/web/hiding-elements-animated.md)
+- Idea
+    - [Canvas Path](post/idea/canvas-path.md)
+    - [Path Data Model](post/idea/path-data-model.md)
+    - [Sleep Page](post/idea/sleep-page.md)
 - Links
     - [Links](post/links.md)
