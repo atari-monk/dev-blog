@@ -19,3 +19,17 @@ Optionally with same message
 ```
 git add . && git commit --amend -m "commit msg" && git push --force origin main  
 ```
+
+## Lowercase
+
+```powershell
+"Some String".ToLower()
+```
+
+```powershell
+"Some String".ToLower().Replace(" ", "-");
+```
+
+```powershell
+(Read-Host "Enter a string").ToLower()
+```

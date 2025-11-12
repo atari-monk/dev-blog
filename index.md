@@ -1,9 +1,3 @@
-- Dev
-    - [Ergonomic Setup](post/dev/ergonomic-setup.md)
-    - [Powershell](post/dev/powershell.md)
-    - [Procedural Programming](post/dev/procedural-programming.md)
-    - [Prompts](post/dev/prompts.md)
-    - [Rules](post/dev/rules.md)
 - Pet Project
     - [Blog](post/proj/blog.md)
     - [Checkpoint](post/proj/checkpoint.md)
@@ -11,13 +5,23 @@
     - Script
         - [Script](post/proj-script/script.md)
         - [Tree](post/proj-script/tree.md)
+- Procedural Programming
+    - [Cheat Sheet](post/procedural-programming/cheat-sheet.md)
+    - [Data Model](post/procedural-programming/data-model.md)
 - Web
     - Hiding Elements
         - [Basic](post/web/hiding-elements-basic.md)
         - [Animated](post/web/hiding-elements-animated.md)
+- Prompts
+    - [Basic](post/prompts/basic.md)
+    - [Procedural Data Model](post/prompts/procedural-data-model.md)
+- Dev
+    - [Ergonomic Setup](post/dev/ergonomic-setup.md)
+    - [Powershell](post/dev/powershell.md)
+    - [Rules](post/dev/rules.md)
+- Links
+    - [Links](post/links.md)
 - Idea
     - [Canvas Path](post/idea/canvas-path.md)
     - [Path Data Model](post/idea/path-data-model.md)
     - [Sleep Page](post/idea/sleep-page.md)
-- Links
-    - [Links](post/links.md)

@@ -1,4 +1,12 @@
-# Prompts
+# Basic Prompts
+
+## KISS
+
+> Analyze this file and determine if the KISS (Keep It Simple, Stupid) principle is being applied effectively.
+>
+> * Identify parts of the code that are unnecessarily complex or over-engineered.
+> * Suggest **one simple refactoring** or simplification to make the code easier to understand.
+> * Focus on the **most impactful simplification** rather than multiple minor changes.
 
 ## DRY
 
