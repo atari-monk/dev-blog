@@ -26,3 +26,8 @@ This seem to be concise prompt that asks for narrow scope answer co ułatwia zmi
 > * Focus on the **primary improvement or refactor**.
 > * Keep it **concise, clear, and under ~100 characters**.
 > * Avoid unnecessary details — highlight the key change only.
+
+## Fast format
+
+Give me just a couple of sentences in response.  
+I am trying to move fast for now, not commit to solution but find possible paths.

@@ -1,0 +1,100 @@
+[
+    {
+        "Id": "1",
+        "Date": "2025-11-12",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "KISS rule",
+        "Work": ["Added rule and prompt posts"],
+        "Start": "15:40",
+        "End": "16:10",
+        "Duration": 30
+    },
+    {
+        "Id": "2",
+        "Date": "2025-11-12",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "Procedural data model",
+        "Work": ["Added guide and prompt posts"],
+        "Start": "16:10",
+        "End": "16:40",
+        "Duration": 30
+    },
+    {
+        "Id": "3",
+        "Date": "2025-11-12",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Check race-track/shapes/box.ts for KISS",
+        "Work": [
+            "Removed object wrapper around track-drawing functions",
+            "Added width/height to TrackRoundedBox to simplify drawTrackBox API",
+            "Simplified drawTrackBox by looping over points instead of individual calls"
+        ],
+        "Start": "23:09",
+        "End": "23:43",
+        "Duration": 34
+    },
+    {
+        "Id": "4",
+        "Date": "2025-11-13",
+        "Project": "checkpoint",
+        "Tag": "feat",
+        "Goal": "Create box primitive",
+        "Work": ["Added primitive/box.ts"],
+        "Start": "12:40",
+        "End": "14:05",
+        "Duration": 85
+    },
+    {
+        "Id": "5",
+        "Date": "2025-11-13",
+        "Project": "checkpoint",
+        "Tag": "feat",
+        "Goal": "Create demos switching in main.ts",
+        "Work": ["Added demos with state, switching with arrows"],
+        "Start": "14:05",
+        "End": "15:30",
+        "Duration": 85
+    },
+    {
+        "Id": "6",
+        "Date": "2025-11-13",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Merge rectangle folder with 5 files to rectangle-utils.ts",
+        "Work": ["Merged, used shape-style.ts and style-utils.ts"],
+        "Start": "19:00",
+        "End": "20:00",
+        "Duration": 60
+    },
+    {
+        "Id": "7",
+        "Date": "2025-11-14",
+        "Project": "dev-blog",
+        "Tag": "chore",
+        "Goal": "Add projects log",
+        "Work": [
+            "Added log 2025/11.json",
+            "Flatten blog structure, recategorized, updated index"
+        ],
+        "Start": "18:40",
+        "End": "19:00",
+        "Duration": 20
+    },
+    {
+        "Id": "8",
+        "Date": "2025-11-14",
+        "Project": "blog",
+        "Tag": "docs",
+        "Goal": "Add daily post",
+        "Work": [
+            "Added post on agent types",
+            "revise “The Modern Game” post into neutral system map"
+        ],
+        "Start": "19:10",
+        "End": "20:00",
+        "Duration": 50
+    }
+]
