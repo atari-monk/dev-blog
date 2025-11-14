@@ -1,29 +1,29 @@
 - Pet Project
-    - [Blog](post/proj/blog.md)
-    - [Checkpoint](post/proj/checkpoint.md)
-    - [CV](post/proj/cv.md)
+    - [Log 2025-11](post/projects/logs/2025/11.json)
+    - [Blog](post/projects/blog.md)
+    - [Checkpoint](post/projects/checkpoint.md)
+    - [CV](post/projects/cv.md)
     - Script
-        - [Script](post/proj-script/script.md)
-        - [Tree](post/proj-script/tree.md)
+        - [Script](post/projects/script/script.md)
+        - [Tree](post/projects/script/tree.md)
 - Procedural Programming
     - [Cheat Sheet](post/procedural-programming/cheat-sheet.md)
     - [Data Model](post/procedural-programming/data-model.md)
 - Web
+    - [Canvas Path](post/web/canvas-path.md)
+    - [Path Data](post/web/path-data.md)
     - Hiding Elements
         - [Basic](post/web/hiding-elements-basic.md)
         - [Animated](post/web/hiding-elements-animated.md)
 - Prompts
     - [Basic](post/prompts/basic.md)
     - [Procedural Data Model](post/prompts/procedural-data-model.md)
-- Dev
-    - [Ergonomic Setup](post/dev/ergonomic-setup.md)
-    - [Powershell](post/dev/powershell.md)
-    - [Rules](post/dev/rules.md)
-    - [Work Logs](post/dev/work-logs.md)
-- Idea
-    - [Blog Visualization](post/idea/blog-visualization.md)
-    - [Canvas Path](post/idea/canvas-path.md)
-    - [Path Data Model](post/idea/path-data-model.md)
+- [Ergonomic Setup](post/ergonomic-setup.md)
+- [Powershell](post/powershell.md)
+- [Rules](post/rules.md)
+- [Work Logs](post/work-logs.md)
+- Ideas
+    - [Pretty Blog](post/idea/blog-visualization.md)
     - [Sleep Page](post/idea/sleep-page.md)
 - Links
     - [Links](post/links.md)

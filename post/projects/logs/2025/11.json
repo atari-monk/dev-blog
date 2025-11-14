@@ -1,0 +1,272 @@
+[
+    {
+        "Id": "1",
+        "Date": "2025-11-12",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "KISS rule",
+        "Work": ["Added rule and prompt posts"],
+        "Start": "15:40",
+        "End": "16:10",
+        "Duration": 30
+    },
+    {
+        "Id": "2",
+        "Date": "2025-11-12",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "Procedural data model",
+        "Work": ["Added guide and prompt posts"],
+        "Start": "16:10",
+        "End": "16:40",
+        "Duration": 30
+    },
+    {
+        "Id": "3",
+        "Date": "2025-11-12",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Check race-track/shapes/box.ts for KISS",
+        "Work": [
+            "Removed object wrapper around track-drawing functions",
+            "Added width/height to TrackRoundedBox to simplify drawTrackBox API",
+            "Simplified drawTrackBox by looping over points instead of individual calls"
+        ],
+        "Start": "23:09",
+        "End": "23:43",
+        "Duration": 34
+    },
+    {
+        "Id": "4",
+        "Date": "2025-11-13",
+        "Project": "checkpoint",
+        "Tag": "feat",
+        "Goal": "Create box primitive",
+        "Work": ["Added primitive/box.ts"],
+        "Start": "12:40",
+        "End": "14:05",
+        "Duration": 85
+    },
+    {
+        "Id": "5",
+        "Date": "2025-11-13",
+        "Project": "checkpoint",
+        "Tag": "feat",
+        "Goal": "Create demos switching in main.ts",
+        "Work": ["Added demos with state, switching with arrows"],
+        "Start": "14:05",
+        "End": "15:30",
+        "Duration": 85
+    },
+    {
+        "Id": "6",
+        "Date": "2025-11-13",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Merge rectangle folder with 5 files to rectangle-utils.ts",
+        "Work": ["Merged"],
+        "Start": "19:00",
+        "End": "19:30",
+        "Duration": 30
+    },
+    {
+        "Id": "7",
+        "Date": "2025-11-13",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Use shape-style.ts and style-utils.ts in rectangle-utils.ts",
+        "Work": ["Integrated"],
+        "Start": "19:30",
+        "End": "20:00",
+        "Duration": 30
+    },
+    {
+        "Id": "8",
+        "Date": "2025-11-14",
+        "Project": "dev-blog",
+        "Tag": "chore",
+        "Goal": "Add projects log",
+        "Work": [
+            "Added log 2025/11.json",
+            "Flatten blog structure, recategorized, updated index"
+        ],
+        "Start": "18:40",
+        "End": "19:00",
+        "Duration": 20
+    },
+    {
+        "Id": "9",
+        "Date": "2025-11-14",
+        "Project": "blog",
+        "Tag": "docs",
+        "Goal": "Add daily post",
+        "Work": [
+            "Added post on agent types",
+            "revise “The Modern Game” post into neutral system map"
+        ],
+        "Start": "19:10",
+        "End": "20:00",
+        "Duration": 50
+    },
+    {
+        "Id": "10",
+        "Date": "2025-11-14",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Merge point folder with 5 files",
+        "Work": ["Merged, split into math and drawing modules"],
+        "Start": "23:50",
+        "End": "00:40",
+        "Duration": 50
+    },
+    {
+        "Id": "11",
+        "Date": "2025-11-15",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Merge arc folder with 5 files",
+        "Work": ["Merged, split into math and drawing modules"],
+        "Start": "13:45",
+        "End": "14:00",
+        "Duration": 15
+    },
+    {
+        "Id": "12",
+        "Date": "2025-11-15",
+        "Project": "logs",
+        "Tag": "planing",
+        "Goal": "Plan next 3 tasks for checkpoint",
+        "Work": ["Planned"],
+        "Start": "14:00",
+        "End": "14:18",
+        "Duration": 18
+    },
+    {
+        "Id": "13",
+        "Date": "2025-11-15",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Use shape-style.ts and style-utils.ts in circle-utils.ts",
+        "Work": ["Integrated"],
+        "Start": "14:27",
+        "End": "14:34",
+        "Duration": 7
+    },
+    {
+        "Id": "14",
+        "Date": "2025-11-15",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Decide how to prune draw-utils",
+        "Work": [
+            "Removed drawCircle",
+            "Added elipse-utils with ShapeStyle",
+            "Added Elipse in examples"
+        ],
+        "Start": "14:35",
+        "End": "15:30",
+        "Duration": 55
+    },
+    {
+        "Id": "15",
+        "Date": "2025-11-15",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "One utils/shape-style.ts to rule them all",
+        "Work": ["Updated code base, used in line-utils.ts"],
+        "Start": "15:55",
+        "End": "16:45",
+        "Duration": 50
+    },
+    {
+        "Id": "16",
+        "Date": "2025-11-15",
+        "Project": "logs",
+        "Tag": "planing",
+        "Goal": "Plan next 4 tasks for checkpoint",
+        "Work": ["Planned"],
+        "Start": "18:00",
+        "End": "18:10",
+        "Duration": 10
+    },
+    {
+        "Id": "17",
+        "Date": "2025-11-15",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Prune draw-utils.ts drawCrosshair and drawArc ?",
+        "Work": ["Deleted"],
+        "Start": "18:18",
+        "End": "18:30",
+        "Duration": 12
+    },
+    {
+        "Id": "18",
+        "Date": "2025-11-15",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Prune draw-utils.ts drawRoundedRect ?",
+        "Work": ["Created rounded-rect-utils.ts"],
+        "Start": "22:45",
+        "End": "23:35",
+        "Duration": 50
+    },
+    {
+        "Id": "19",
+        "Date": "2025-11-16",
+        "Project": "script",
+        "Tag": "feat",
+        "Goal": "Cli tool allowing to move snippets to clipboard and form prompt",
+        "Work": [
+            "Added snippet stash with pop, clear, print, store commands",
+            "Move single file scripts to utils module"
+        ],
+        "Start": "11:55",
+        "End": "13:15",
+        "Duration": 80
+    },
+    {
+        "Id": "20",
+        "Date": "2025-11-16",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Move points from draw-utils.ts/drawRoundedRectDebug to rounded-rect-utils.ts",
+        "Work": [""],
+        "Start": "",
+        "End": "",
+        "Duration": 0
+    },
+    {
+        "Id": "21",
+        "Date": "2025-11-16",
+        "Project": "checkpoint",
+        "Tag": "feat",
+        "Goal": "Add demo of rounded-rect-utils.ts to main",
+        "Work": [""],
+        "Start": "",
+        "End": "",
+        "Duration": 0
+    },
+    {
+        "Id": "22",
+        "Date": "2025-11-16",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Prune draw-utils.ts demoRaceTrack ?",
+        "Work": [""],
+        "Start": "",
+        "End": "",
+        "Duration": 0
+    },
+    {
+        "Id": "23",
+        "Date": "2025-11-16",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Fix text and background examples",
+        "Work": [""],
+        "Start": "",
+        "End": "",
+        "Duration": 0
+    }
+]

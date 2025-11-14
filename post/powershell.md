@@ -33,3 +33,11 @@ git add . && git commit --amend -m "commit msg" && git push --force origin main
 ```powershell
 (Read-Host "Enter a string").ToLower()
 ```
+
+## Open files
+
+log
+
+```powershell
+code "C:/Atari-Monk/projects/dev-blog/post/projects/logs/2025/11.json"
+```
