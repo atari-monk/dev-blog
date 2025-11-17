@@ -228,17 +228,28 @@
     {
         "Id": "20",
         "Date": "2025-11-16",
-        "Project": "checkpoint",
-        "Tag": "refactoring",
-        "Goal": "Move points from draw-utils.ts/drawRoundedRectDebug to rounded-rect-utils.ts",
-        "Work": [""],
-        "Start": "",
-        "End": "",
-        "Duration": 0
+        "Project": "blog",
+        "Tag": "docs",
+        "Goal": "Read my post 'Agent Types' and rate it",
+        "Work": ["Decided to keep it in blog"],
+        "Start": "22:06",
+        "End": "23:06",
+        "Duration": 60
     },
     {
         "Id": "21",
-        "Date": "2025-11-16",
+        "Date": "2025-11-17",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Move points from draw-utils.ts/drawRoundedRectDebug to rounded-rect-utils.ts",
+        "Work": ["New data struct, compute points, new draw and draw points functions"],
+        "Start": "07:30",
+        "End": "08:15,",
+        "Duration": 45
+    },
+    {
+        "Id": "",
+        "Date": "2025-11",
         "Project": "checkpoint",
         "Tag": "feat",
         "Goal": "Add demo of rounded-rect-utils.ts to main",
@@ -248,8 +259,8 @@
         "Duration": 0
     },
     {
-        "Id": "22",
-        "Date": "2025-11-16",
+        "Id": "",
+        "Date": "2025-11",
         "Project": "checkpoint",
         "Tag": "refactoring",
         "Goal": "Prune draw-utils.ts demoRaceTrack ?",
@@ -259,8 +270,8 @@
         "Duration": 0
     },
     {
-        "Id": "23",
-        "Date": "2025-11-16",
+        "Id": "",
+        "Date": "2025-11",
         "Project": "checkpoint",
         "Tag": "refactoring",
         "Goal": "Fix text and background examples",
