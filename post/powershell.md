@@ -36,8 +36,13 @@ git add . && git commit --amend -m "commit msg" && git push --force origin main
 
 ## Open files
 
-log
+projects logs
+
+- today-current
+- today-log
+- log
+- plan
 
 ```powershell
-code "C:/Atari-Monk/projects/dev-blog/post/projects/logs/2025/11.json"
+code "C:\Atari-Monk\projects\dev-blog\post\projects\logs\2025\11\name.json"
 ```

@@ -18,6 +18,7 @@
 - Prompts
     - [Basic](post/prompts/basic.md)
     - [Procedural Data Model](post/prompts/procedural-data-model.md)
+    - [Refactor](post/prompts/refactor.md)
 - [Ergonomic Setup](post/ergonomic-setup.md)
 - [Powershell](post/powershell.md)
 - [Rules](post/rules.md)
