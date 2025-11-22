@@ -314,5 +314,93 @@
         "Start": "20:30",
         "End": "21:50",
         "Duration": 80
+    },
+    {
+        "Id": "28",
+        "Date": "2025-11-20",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Decide arc-utils usefullness, KISS, DRY, put examples demo in main",
+        "Work": ["Add math tables, demo runs"],
+        "Start": "09:30",
+        "End": "10:00",
+        "Duration": 30
+    },
+    {
+        "Id": "29",
+        "Date": "2025-11-20",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Step 2,3 of arc-utils refactor",
+        "Work": ["Small fixes"],
+        "Start": "10:55",
+        "End": "11:20",
+        "Duration": 25
+    },
+    {
+        "Id": "30",
+        "Date": "2025-11-20",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "Design refactoring prompt to get higher quality of given code",
+        "Work": ["Blog post"],
+        "Start": "11:40",
+        "End": "12:00",
+        "Duration": 20
+    },
+    {
+        "Id": "31",
+        "Date": "2025-11-20",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "Refactor projects logs to more convinient structure",
+        "Work": ["Splited to files - log, plan, today-log, today-current"],
+        "Start": "12:00",
+        "End": "13:40",
+        "Duration": 100
+    },
+    {
+        "Id": "32",
+        "Date": "2025-11-20",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Use refactoring prompt on arc-utils",
+        "Work": ["Remove redundant util functions"],
+        "Start": "14:20",
+        "End": "15:50",
+        "Duration": 90
+    },
+    {
+        "Id": "33",
+        "Date": "2025-11-21",
+        "Project": "cleaning",
+        "Tag": "declutering",
+        "Goal": "Clear Usb disck",
+        "Work": ["Removed a lot of data"],
+        "Start": "",
+        "End": "",
+        "Duration": 0
+    },
+    {
+        "Id": "34",
+        "Date": "2025-11-21",
+        "Project": "blog",
+        "Tag": "declutering",
+        "Goal": "Asses posts value",
+        "Work": ["Removed blog and blog-pl repos", "Restarted empty blog repo"],
+        "Start": "22:05",
+        "End": "22:45",
+        "Duration": 40
+    },
+    {
+        "Id": "35",
+        "Date": "2025-11-21",
+        "Project": "blog",
+        "Tag": "docs",
+        "Goal": "Write post",
+        "Work": ["Post meditation-on-mood"],
+        "Start": "22:45",
+        "End": "23:55",
+        "Duration": 70
     }
 ]

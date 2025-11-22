@@ -44,5 +44,16 @@ projects logs
 - plan
 
 ```powershell
-code "C:\Atari-Monk\projects\dev-blog\post\projects\logs\2025\11\name.json"
+code "C:/Atari-Monk/project/dev-blog/post/projects/logs/2025/11/today-current.json"
+```
+
+```sh
+Get-Content "C:/Atari-Monk/project/dev-blog/post/projects/logs/2025/11/today-current.json"
+```
+
+## Remove last commit
+
+```sh
+git reset --hard HEAD~1
+git push origin main --force
 ```

@@ -26,5 +26,7 @@
 - Ideas
     - [Pretty Blog](post/idea/blog-visualization.md)
     - [Sleep Page](post/idea/sleep-page.md)
+    - [Task Quest](post/idea/task-quest.md)
+    - [Road Editor](post/idea/road-editor.md)
 - Links
     - [Links](post/links.md)
