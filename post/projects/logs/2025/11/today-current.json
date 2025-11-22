@@ -1,13 +1,13 @@
 [
     {
-        "Id": "32",
-        "Date": "2025-11-20",
-        "Project": "checkpoint",
-        "Tag": "refactoring",
-        "Goal": "Use refactoring prompt on arc-utils",
-        "Work": [""],
-        "Start": "14:20",
-        "End": "",
-        "Duration": 0
+        "Id": "36",
+        "Date": "2025-11-22",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "Prepare coding road editor",
+        "Work": ["Post"],
+        "Start": "16:40",
+        "End": "16:50",
+        "Duration": 10
     }
 ]

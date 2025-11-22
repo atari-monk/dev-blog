@@ -42,5 +42,49 @@
         "Start": "12:00",
         "End": "13:40",
         "Duration": 100
+    },
+    {
+        "Id": "32",
+        "Date": "2025-11-20",
+        "Project": "checkpoint",
+        "Tag": "refactoring",
+        "Goal": "Use refactoring prompt on arc-utils",
+        "Work": ["Remove redundant util functions"],
+        "Start": "14:20",
+        "End": "15:50",
+        "Duration": 90
+    },
+    {
+        "Id": "33",
+        "Date": "2025-11-21",
+        "Project": "cleaning",
+        "Tag": "declutering",
+        "Goal": "Clear Usb disck",
+        "Work": ["Removed a lot of data"],
+        "Start": "",
+        "End": "",
+        "Duration": 0
+    },
+    {
+        "Id": "34",
+        "Date": "2025-11-21",
+        "Project": "blog",
+        "Tag": "declutering",
+        "Goal": "Asses posts value",
+        "Work": ["Removed blog and blog-pl repos", "Restarted empty blog repo"],
+        "Start": "22:05",
+        "End": "22:45",
+        "Duration": 40
+    },
+    {
+        "Id": "35",
+        "Date": "2025-11-21",
+        "Project": "blog",
+        "Tag": "docs",
+        "Goal": "Write post",
+        "Work": ["Post meditation-on-mood"],
+        "Start": "22:45",
+        "End": "23:55",
+        "Duration": 70
     }
 ]
