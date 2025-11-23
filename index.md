@@ -1,7 +1,9 @@
 - Pet Project
     - [Log 2025-11](post/projects/logs/2025/11.json)
     - [Blog](post/projects/blog.md)
-    - [Checkpoint](post/projects/checkpoint.md)
+    - Checkpoint
+        - [Checkpoint](post/projects/checkpoint/checkpoint.md)
+        - [Circle Utils](post/projects/checkpoint/circle-utils.md)
     - [CV](post/projects/cv.md)
     - Script
         - [Script](post/projects/script/script.md)

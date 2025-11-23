@@ -402,5 +402,85 @@
         "Start": "22:45",
         "End": "23:55",
         "Duration": 70
+    },
+    {
+        "Id": "36",
+        "Date": "2025-11-22",
+        "Project": "dev-blog",
+        "Tag": "docs",
+        "Goal": "Prepare coding road editor",
+        "Work": ["Post"],
+        "Start": "16:40",
+        "End": "16:50",
+        "Duration": 10
+    },
+    {
+        "Id": "37",
+        "Date": "2025-11-22",
+        "Project": "priv-blog",
+        "Tag": "feat",
+        "Goal": "Start priv blog with my story",
+        "Work": ["Project setup"],
+        "Start": "20:00",
+        "End": "22:05",
+        "Duration": 125
+    },
+    {
+        "Id": "38",
+        "Date": "2025-11-22",
+        "Project": "blog",
+        "Tag": "feat",
+        "Goal": "Add collection of movie scenes",
+        "Work": ["Added links to post"],
+        "Start": "22:40",
+        "End": "23:15",
+        "Duration": 35
+    },
+    {
+        "Id": "39",
+        "Date": "2025-11-23",
+        "Project": "checkpoint",
+        "Tag": "feat",
+        "Goal": "Implement and test road editor",
+        "Work": ["Editor for straight road segments"],
+        "Start": "11:20",
+        "End": "12:30",
+        "Duration": 70
+    },
+    {
+        "Id": "40",
+        "Date": "2025-11-23",
+        "Project": "checkpoint",
+        "Tag": "refactor/documentation",
+        "Goal": "Read and document circle-utils.ts to ensure prod quality",
+        "Work": ["Refactored to much better quality in circle-utils.ts"],
+        "Start": "15:20",
+        "End": "17:10",
+        "Duration": 110
+    },
+    {
+        "Id": "41",
+        "Date": "2025-11-23",
+        "Project": "script",
+        "Tag": "feat",
+        "Goal": "Make 'snippet' - prompt gen script better",
+        "Work": [
+            "Added snippet file path flag",
+            "Added snippet description flag"
+        ],
+        "Start": "20:40",
+        "End": "21:10",
+        "Duration": 30
+    },
+    {
+        "Id": "42",
+        "Date": "2025-11-23",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Make line-utils.ts in style of circle-utils.ts",
+        "Work": ["line-utils.ts use shape-utils.ts"],
+        "Start": "21:20",
+        "End": "21:45",
+        "Duration": 25
     }
 ]
