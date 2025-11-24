@@ -6,6 +6,7 @@
         - [Circle Utils](post/projects/checkpoint/circle-utils.md)
     - [CV](post/projects/cv.md)
     - Script
+        - [Screen Capture](post/projects/script/record.md)
         - [Script](post/projects/script/script.md)
         - [Tree](post/projects/script/tree.md)
 - Procedural Programming

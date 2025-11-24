@@ -482,5 +482,96 @@
         "Start": "21:20",
         "End": "21:45",
         "Duration": 25
+    },
+    {
+        "Id": "43",
+        "Date": "2025-11-24",
+        "Project": "script",
+        "Tag": "refactor/feat",
+        "Goal": "Upgrade snippet script",
+        "Work": [
+            "Added snippet -t flag to describe snippet type",
+            "Added snippet -c flag to allow direct text content from cli"
+        ],
+        "Start": "15:40",
+        "End": "16:45",
+        "Duration": 65
+    },
+    {
+        "Id": "44",
+        "Date": "2025-11-24",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Make point-utils.ts in style of circle-utils.ts",
+        "Work": ["Points now using shape utils and styles"],
+        "Start": "17:15",
+        "End": "18:45",
+        "Duration": 90
+    },
+    {
+        "Id": "45",
+        "Date": "2025-11-24",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Make elipse-utils.ts consistent with shape utils",
+        "Work": ["Integrated"],
+        "Start": "20:20",
+        "End": "20:45",
+        "Duration": 20
+    },
+    {
+        "Id": "46",
+        "Date": "2025-11-24",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Make arc-drawing.ts consistent with shape utils",
+        "Work": ["Integrated"],
+        "Start": "20:50",
+        "End": "21:40",
+        "Duration": 50
+    },
+    {
+        "Id": "47",
+        "Date": "2025-11-25",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Make rectangle-utils.ts consistent with shape utils",
+        "Work": ["Integrated"],
+        "Start": "14:30",
+        "End": "15:30",
+        "Duration": 60
+    },
+    {
+        "Id": "48",
+        "Date": "2025-11-25",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Make text-utils consistent with shape utils",
+        "Work": ["Integrated"],
+        "Start": "19:00",
+        "End": "19:35",
+        "Duration": 35
+    },
+    {
+        "Id": "49",
+        "Date": "2025-11-25",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Check if round-rect-utils are consistent with shape utils",
+        "Work": ["Integrated"],
+        "Start": "19:40",
+        "End": "20:50",
+        "Duration": 70
+    },
+    {
+        "Id": "50",
+        "Date": "2025-11-25",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Check if primitive/box.ts is good quality code",
+        "Work": ["Removed box, used upgraded rect api instead"],
+        "Start": "22:10",
+        "End": "23:10",
+        "Duration": 60
     }
 ]
