@@ -31,5 +31,7 @@
     - [Sleep Page](post/idea/sleep-page.md)
     - [Task Quest](post/idea/task-quest.md)
     - [Road Editor](post/idea/road-editor.md)
+- Blabing
+    - [Coding in AI Era](post/blabing/coding-ai.md)
 - Links
     - [Links](post/links.md)

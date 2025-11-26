@@ -573,5 +573,151 @@
         "Start": "22:10",
         "End": "23:10",
         "Duration": 60
+    },
+    {
+        "Id": "51",
+        "Date": "2025-11-26",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Clean up draw-utils.ts",
+        "Work": ["Deleted draw-utils.ts", "Pc activity ps1, py script"],
+        "Start": "08:55",
+        "End": "09:40",
+        "Duration": 45
+    },
+    {
+        "Id": "52",
+        "Date": "2025-11-26",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Review race-track/shapes/box.ts",
+        "Work": [
+            "Improved code quality as much as i could",
+            "AI agreed code quality is high"
+        ],
+        "Start": "11:20",
+        "End": "12:50",
+        "Duration": 90
+    },
+    {
+        "Id": "53",
+        "Date": "2025-11-26",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Review race-track/shapes/grass.ts",
+        "Work": [
+            "Improved code quality as much as i could",
+            "AI agreed code quality is high"
+        ],
+        "Start": "13:55",
+        "End": "15:30",
+        "Duration": 95
+    },
+    {
+        "Id": "54",
+        "Date": "2025-11-26",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Review race-track/shapes/inner-strip.ts",
+        "Work": [
+            "Improved code quality as much as i could",
+            "AI agreed code quality is high"
+        ],
+        "Start": "16:55",
+        "End": "18:10",
+        "Duration": 75
+    },
+    {
+        "Id": "55",
+        "Date": "2025-11-27",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Review race-track/shapes/lane-lines.ts",
+        "Work": ["AI refactored according to ideal example"],
+        "Start": "09:10",
+        "End": "09:50",
+        "Duration": 40
+    },
+    {
+        "Id": "56",
+        "Date": "2025-11-27",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Review race-track/shapes/outer-strip.ts",
+        "Work": ["AI refactored according to ideal example, record time"],
+        "Start": "10:55",
+        "End": "11:10",
+        "Duration": 15
+    },
+    {
+        "Id": "57",
+        "Date": "2025-11-27",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Review race-track/shapes/road.ts",
+        "Work": [
+            "AI refactored according to ideal example, fixed problem with lane lines"
+        ],
+        "Start": "11:10",
+        "End": "11:50",
+        "Duration": 40
+    },
+    {
+        "Id": "58",
+        "Date": "2025-11-27",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Clean race-track/shapes",
+        "Work": ["Simpler, removed redundant fluff"],
+        "Start": "12:45",
+        "End": "13:25",
+        "Duration": 40
+    },
+    {
+        "Id": "59",
+        "Date": "2025-11-27",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Clean race-track/shapes",
+        "Work": ["Removed aggregate of styles"],
+        "Start": "14:40",
+        "End": "15:40",
+        "Duration": 60
+    },
+    {
+        "Id": "60",
+        "Date": "2025-11-27",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Clean race-track/shapes",
+        "Work": ["Data/drawing - full separation, drawing anchors function"],
+        "Start": "15:50",
+        "End": "17:10",
+        "Duration": 80
+    },
+    {
+        "Id": "61",
+        "Date": "2025-11-28",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Integrate box.ts to race-track/shapes/race-track.ts",
+        "Work": [
+            "Integrated box.ts to race-track.ts",
+            "State return mechanism in main.ts"
+        ],
+        "Start": "11:35",
+        "End": "13:55",
+        "Duration": 140
+    },
+    {
+        "Id": "62",
+        "Date": "2025-11-28",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Experiment with alpha in colors for shapes/race-track",
+        "Work": ["Unified styles"],
+        "Start": "15:50",
+        "End": "18:45",
+        "Duration": 175
     }
 ]
