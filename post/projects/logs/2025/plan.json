@@ -1,18 +1,18 @@
 [
     {
         "Id": "",
-        "Date": "2025-11-20",
+        "Date": "2025",
         "Project": "cv",
         "Tag": "job",
         "Goal": "Send 6 cv",
-        "Work": [],
+        "Work": [""],
         "Start": "",
         "End": "",
         "Duration": 0
     },
     {
         "Id": "",
-        "Date": "2025-11",
+        "Date": "2025",
         "Project": "checkpoint",
         "Tag": "refactoring",
         "Goal": "Fix text and background examples",
@@ -23,7 +23,7 @@
     },
     {
         "Id": "",
-        "Date": "2025-11",
+        "Date": "2025",
         "Project": "script",
         "Tag": "feat",
         "Goal": "Snippet command should have optional description for snippet",
@@ -34,7 +34,7 @@
     },
     {
         "Id": "",
-        "Date": "2025-11",
+        "Date": "2025",
         "Project": "blog",
         "Tag": "docs",
         "Goal": "Have some fun bloging for 1h",

@@ -5,3 +5,4 @@
 - [chatgpt](https://chatgpt.com/)
 - [translate](https://translate.google.pl/?sl=en&tl=pl&op=translate)
 - [youtube](https://www.youtube.com/)
+- [Time](https://time.is/)

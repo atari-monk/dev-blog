@@ -1,9 +1,9 @@
 - Pet Project
-    - [Log 2025-11](post/projects/logs/2025/11.json)
     - [Blog](post/projects/blog.md)
     - Checkpoint
         - [Checkpoint](post/projects/checkpoint/checkpoint.md)
         - [Circle Utils](post/projects/checkpoint/circle-utils.md)
+        - [Why Code](post/projects/checkpoint/why-code.md)
     - [CV](post/projects/cv.md)
     - Script
         - [Screen Capture](post/projects/script/record.md)
@@ -26,12 +26,9 @@
 - [Powershell](post/powershell.md)
 - [Rules](post/rules.md)
 - [Work Logs](post/work-logs.md)
+- [Coding in AI Era](post/blabing/coding-ai.md)
+- [Links](post/links.md)
 - Ideas
     - [Pretty Blog](post/idea/blog-visualization.md)
     - [Sleep Page](post/idea/sleep-page.md)
     - [Task Quest](post/idea/task-quest.md)
-    - [Road Editor](post/idea/road-editor.md)
-- Blabing
-    - [Coding in AI Era](post/blabing/coding-ai.md)
-- Links
-    - [Links](post/links.md)

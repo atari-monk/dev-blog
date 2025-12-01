@@ -1,0 +1,112 @@
+[
+    {
+        "Id": "68",
+        "Date": "2025-12-01",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Use LayerGeometry struct in shapes/race-track/inner-strip",
+        "Work": ["Tested"],
+        "Start": "20:40",
+        "End": "21:05",
+        "Duration": 25
+    },
+    {
+        "Id": "69",
+        "Date": "2025-12-01",
+        "Project": "wesnoth",
+        "Tag": "SotBE-Black Flag",
+        "Goal": "Fight round 1",
+        "Work": ["Learning scenario"],
+        "Start": "21:25",
+        "End": "21:50",
+        "Duration": 25
+    },
+    {
+        "Id": "70",
+        "Date": "2025-12-01",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Use LayerGeometry struct in shapes/race-track/road",
+        "Work": ["Tested"],
+        "Start": "23:45",
+        "End": "00:20",
+        "Duration": 35
+    },
+    {
+        "Id": "71",
+        "Date": "2025-12-02",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Use LayerGeometry struct in shapes/race-track/grass",
+        "Work": ["Tested"],
+        "Start": "19:30",
+        "End": "20:35",
+        "Duration": 65
+    },
+    {
+        "Id": "72",
+        "Date": "2025-12-02",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Use LayerGeometry struct in shapes/race-track/lane-lines",
+        "Work": ["Tested"],
+        "Start": "21:40",
+        "End": "22:40",
+        "Duration": 60
+    },
+    {
+        "Id": "73",
+        "Date": "2025-12-03",
+        "Project": "priv-blog",
+        "Tag": "Memorial",
+        "Goal": "Update doc state so i can accept it",
+        "Work": ["It reads more natural with tts"],
+        "Start": "11:45",
+        "End": "13:10",
+        "Duration": 85
+    },
+    {
+        "Id": "74",
+        "Date": "2025-12-03",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Clean race-track.ts",
+        "Work": ["Move box to LayerGeometry"],
+        "Start": "16:05",
+        "End": "17:10",
+        "Duration": 65
+    },
+    {
+        "Id": "75",
+        "Date": "2025-12-03",
+        "Project": "priv-blog",
+        "Tag": "Memorial",
+        "Goal": "Read, listen and add 20 sentences",
+        "Work": ["Added some text, listened tts"],
+        "Start": "18:05",
+        "End": "18:55",
+        "Duration": 50
+    },
+    {
+        "Id": "76",
+        "Date": "2025-12-03",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Clean race-track.ts",
+        "Work": ["Removed comments and old functions"],
+        "Start": "20:00",
+        "End": "20:30",
+        "Duration": 30
+    },
+    {
+        "Id": "77",
+        "Date": "2025-12-03",
+        "Project": "wesnoth",
+        "Tag": "SotBE-Black Flag",
+        "Goal": "Have fun",
+        "Work": ["Fun"],
+        "Start": "09:20",
+        "End": "09:50",
+        "Duration": 30
+    }
+]

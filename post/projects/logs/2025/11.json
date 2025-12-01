@@ -719,5 +719,64 @@
         "Start": "15:50",
         "End": "18:45",
         "Duration": 175
+    },
+    {
+        "Id": "63",
+        "Date": "2025-11-29",
+        "Project": "priv-blog",
+        "Tag": "docs",
+        "Goal": "Write my memorial",
+        "Work": ["Wrote first page"],
+        "Start": "00:00",
+        "End": "00:30",
+        "Duration": 30
+    },
+    {
+        "Id": "64",
+        "Date": "2025-11-29",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Check if there is a way to futher compress race-track/shapes/",
+        "Work": [
+            "Remove anchors functions from layers and use one generic function"
+        ],
+        "Start": "18:15",
+        "End": "20:00",
+        "Duration": 105
+    },
+    {
+        "Id": "65",
+        "Date": "2025-11-29",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Check if there is a way to futher compress race-track/shapes/",
+        "Work": [
+            "Anchor points drawing consolidated to one function, color coded"
+        ],
+        "Start": "21:55",
+        "End": "22:55",
+        "Duration": 60
+    },
+    {
+        "Id": "66",
+        "Date": "2025-11-30",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Compress shapes/race-track",
+        "Work": ["One data structure for layer, used for outer strip"],
+        "Start": "13:50",
+        "End": "14:50",
+        "Duration": 60
+    },
+    {
+        "Id": "67",
+        "Date": "2025-11-30",
+        "Project": "checkpoint",
+        "Tag": "refactor",
+        "Goal": "Compress shapes/race-track",
+        "Work": ["Use LayerGeometry in OuterStrip"],
+        "Start": "19:10",
+        "End": "19:55",
+        "Duration": 45
     }
 ]
