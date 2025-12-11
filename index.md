@@ -9,6 +9,10 @@
         - [Screen Capture](post/projects/script/record.md)
         - [Script](post/projects/script/script.md)
         - [Tree](post/projects/script/tree.md)
+- Learning Project
+    - Python Developer
+        - [Wymagania](post/learning-project/python-developer/wymagania.md)
+        - [MVP](post/learning-project/python-developer/mvp.md)
 - Procedural Programming
     - [Cheat Sheet](post/procedural-programming/cheat-sheet.md)
     - [Data Model](post/procedural-programming/data-model.md)

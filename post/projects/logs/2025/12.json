@@ -58,7 +58,7 @@
         "Id": "73",
         "Date": "2025-12-03",
         "Project": "priv-blog",
-        "Tag": "Memorial",
+        "Tag": "memorial",
         "Goal": "Update doc state so i can accept it",
         "Work": ["It reads more natural with tts"],
         "Start": "11:45",
@@ -80,7 +80,7 @@
         "Id": "75",
         "Date": "2025-12-03",
         "Project": "priv-blog",
-        "Tag": "Memorial",
+        "Tag": "memorial",
         "Goal": "Read, listen and add 20 sentences",
         "Work": ["Added some text, listened tts"],
         "Start": "18:05",
@@ -108,5 +108,200 @@
         "Start": "09:20",
         "End": "09:50",
         "Duration": 30
+    },
+    {
+        "Id": "78",
+        "Date": "2025-12-04",
+        "Project": "cv",
+        "Tag": "sending",
+        "Goal": "Send 20 cv's to simple jobs",
+        "Work": ["Send 40 to all kind of jobs"],
+        "Start": "09:30",
+        "End": "10:20",
+        "Duration": 50
+    },
+    {
+        "Id": "79",
+        "Date": "2025-12-04",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Prepare prompt for race-track/shapes with code base and file tree, in form of ps1 script and use it to refactor code base",
+        "Work": [
+            "Chatgpt refactor suggestion introduced some bug so refactor discarded"
+        ],
+        "Start": "12:45",
+        "End": "13:25",
+        "Duration": 40
+    },
+    {
+        "Id": "80",
+        "Date": "2025-12-04",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Better partition of code to files",
+        "Work": ["Extracted anchors.ts and config.ts files"],
+        "Start": "13:25",
+        "End": "13:40",
+        "Duration": 15
+    },
+    {
+        "Id": "81",
+        "Date": "2025-12-04",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Refactor so each layer element has its show flag",
+        "Work": ["Tested"],
+        "Start": "13:50",
+        "End": "14:15",
+        "Duration": 25
+    },
+    {
+        "Id": "82",
+        "Date": "2025-12-04",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Refactor style type to make it inside LayerGeometry",
+        "Work": ["Tested"],
+        "Start": "14:40",
+        "End": "14:50",
+        "Duration": 10
+    },
+    {
+        "Id": "83",
+        "Date": "2025-12-04",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Use vector types in Track config",
+        "Work": ["Tested"],
+        "Start": "14:55",
+        "End": "15:35",
+        "Duration": 40
+    },
+    {
+        "Id": "84",
+        "Date": "2025-12-04",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Prompt AI to show me one helper function i can use to optimize layer calculations",
+        "Work": ["Failed again, no good function i could safly use"],
+        "Start": "15:45",
+        "End": "15:55",
+        "Duration": 10
+    },
+    {
+        "Id": "85",
+        "Date": "2025-12-04",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Try to optimize layer calculations by extracting some helper function",
+        "Work": ["Used helper to calculate toprect of layer, part 1"],
+        "Start": "16:10",
+        "End": "17:00",
+        "Duration": 50
+    },
+    {
+        "Id": "86",
+        "Date": "2025-12-04",
+        "Project": "wesnoth",
+        "Tag": "SotBE-Black Flag",
+        "Goal": "Have fun",
+        "Work": ["Victory"],
+        "Start": "19:55",
+        "End": "20:10",
+        "Duration": 15
+    },
+    {
+        "Id": "87",
+        "Date": "2025-12-04",
+        "Project": "priv-blog",
+        "Tag": "memorial",
+        "Goal": "Add some text, listen to tts",
+        "Work": ["Written some text blocks"],
+        "Start": "22:20",
+        "End": "22:40",
+        "Duration": 20
+    },
+    {
+        "Id": "88",
+        "Date": "2025-12-05",
+        "Project": "priv-blog",
+        "Tag": "docs",
+        "Goal": "Store daily notes taken as day goes by",
+        "Work": ["Stored made notes and prepared format to take them everyday"],
+        "Start": "06:30",
+        "End": "08:10",
+        "Duration": 100
+    },
+    {
+        "Id": "89",
+        "Date": "2025-12-05",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Use function createTopRect in layers calculations",
+        "Work": ["Tested for both strips and road"],
+        "Start": "08:30",
+        "End": "09:00",
+        "Duration": 30
+    },
+    {
+        "Id": "90",
+        "Date": "2025-12-05",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Extract one util function from LayerGeometry calculations",
+        "Work": ["Added createArcs (ai sugested yesterday)"],
+        "Start": "09:55",
+        "End": "10:20",
+        "Duration": 25
+    },
+    {
+        "Id": "91",
+        "Date": "2025-12-05",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Update prompt to merge full race-track/shapes code base",
+        "Work": [
+            "Generated prompt, decided to move on to other code as race-track/shapes is best now"
+        ],
+        "Start": "10:25",
+        "End": "10:45",
+        "Duration": 20
+    },
+    {
+        "Id": "92",
+        "Date": "2025-12-05",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Go back to example code in race-track/paths.ts",
+        "Work": [
+            "Runs in main",
+            "Extracted config type",
+            "Lanes and road files"
+        ],
+        "Start": "10:50",
+        "End": "12:10",
+        "Duration": 80
+    },
+    {
+        "Id": "93",
+        "Date": "2025-12-05",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Separate concerns to geometry and draw for race-track/paths-lanes.ts",
+        "Work": ["Tested"],
+        "Start": "15:50",
+        "End": "16:40",
+        "Duration": 50
+    },
+    {
+        "Id": "94",
+        "Date": "2025-12-05",
+        "Project": "checkpoint",
+        "Tag": "Refactor",
+        "Goal": "Separate functions for geometry and draw, for race-track/paths-lanes.ts",
+        "Work": ["Tested"],
+        "Start": "19:50",
+        "End": "21:35",
+        "Duration": 105
     }
 ]
