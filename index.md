@@ -18,15 +18,20 @@
         - [Docker](post/learning-project/access-guard/access-guard-mvp-dockerized.md)
         - [Redis RabbitMQ](post/learning-project/access-guard/access-guard-mvp-redis-rabbitmq.md)
 
+- System
+    - [Linux](post/system/linux.md)
+
 - Procedural Programming
     - [Cheat Sheet](post/procedural-programming/cheat-sheet.md)
     - [Data Model](post/procedural-programming/data-model.md)
+
 - Web
     - [Canvas Path](post/web/canvas-path.md)
     - [Path Data](post/web/path-data.md)
     - Hiding Elements
         - [Basic](post/web/hiding-elements-basic.md)
         - [Animated](post/web/hiding-elements-animated.md)
+
 - Prompts
     - [Basic](post/prompts/basic.md)
     - [Procedural Data Model](post/prompts/procedural-data-model.md)
@@ -37,6 +42,7 @@
 - [Work Logs](post/work-logs.md)
 - [Coding in AI Era](post/coding-ai.md)
 - [Links](post/links.md)
+
 - Ideas
     - [Pretty Blog](post/idea/blog-visualization.md)
     - [Sleep Page](post/idea/sleep-page.md)

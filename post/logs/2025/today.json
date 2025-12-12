@@ -16,9 +16,9 @@
         "Project": "access-guard",
         "Tag": "mvp",
         "Goal": "Implement mvp",
-        "Work": [""],
+        "Work": ["Implemented local mvp version", "Created expansion docs for docker", "Created doc for linux install to start using docker"],
         "Start": "19:00",
-        "End": "",
-        "Duration": 0
+        "End": "20:50",
+        "Duration": 110
     }
 ]
