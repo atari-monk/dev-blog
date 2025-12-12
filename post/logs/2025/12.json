@@ -303,5 +303,27 @@
         "Start": "19:50",
         "End": "21:35",
         "Duration": 105
-    }
+    },
+	{
+        "Id": "95",
+        "Date": "2025-12-11",
+        "Project": "cv",
+        "Tag": "skill",
+        "Goal": "Find and learn a skill from job offer",
+        "Work": ["Mvp post for python dev in dev-blog"],
+        "Start": "13:40",
+        "End": "15:20",
+        "Duration": 100
+    },
+    {
+        "Id": "96",
+        "Date": "2025-12-11",
+        "Project": "priv-blog",
+        "Tag": "cleaning",
+        "Goal": "Remove trash files",
+        "Work": ["Removed a lot of useless trash files"],
+        "Start": "19:50",
+        "End": "09:50",
+        "Duration": 120
+    },
 ]

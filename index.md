@@ -1,18 +1,23 @@
 - Pet Project
-    - [Blog](post/projects/blog.md)
+    - [Blog](post/pet-project/blog.md)
     - Checkpoint
-        - [Checkpoint](post/projects/checkpoint/checkpoint.md)
-        - [Circle Utils](post/projects/checkpoint/circle-utils.md)
-        - [Why Code](post/projects/checkpoint/why-code.md)
-    - [CV](post/projects/cv.md)
+        - [Checkpoint](post/pet-project/checkpoint/checkpoint.md)
+        - [Circle Utils](post/pet-project/checkpoint/circle-utils.md)
+        - [Why Code](post/pet-project/checkpoint/why-code.md)
+    - [CV](post/pet-project/cv.md)
     - Script
-        - [Screen Capture](post/projects/script/record.md)
-        - [Script](post/projects/script/script.md)
-        - [Tree](post/projects/script/tree.md)
+        - [Screen Capture](post/pet-project/script/record.md)
+        - [Script](post/pet-project/script/script.md)
+        - [Tree](post/pet-project/script/tree.md)
+
 - Learning Project
-    - Python Developer
-        - [Wymagania](post/learning-project/python-developer/wymagania.md)
-        - [MVP](post/learning-project/python-developer/mvp.md)
+    - Access Guard
+        - [Wymagania](post/learning-project/access-guard/wymagania.md)
+        - [MVP](post/learning-project/access-guard/access-guard-mvp.md)
+        - [Functionality of locla MVP](post/learning-project/access-guard/access-guard-mvp-functionality.md)
+        - [Docker](post/learning-project/access-guard/access-guard-mvp-dockerized.md)
+        - [Redis RabbitMQ](post/learning-project/access-guard/access-guard-mvp-redis-rabbitmq.md)
+
 - Procedural Programming
     - [Cheat Sheet](post/procedural-programming/cheat-sheet.md)
     - [Data Model](post/procedural-programming/data-model.md)
@@ -30,7 +35,7 @@
 - [Powershell](post/powershell.md)
 - [Rules](post/rules.md)
 - [Work Logs](post/work-logs.md)
-- [Coding in AI Era](post/blabing/coding-ai.md)
+- [Coding in AI Era](post/coding-ai.md)
 - [Links](post/links.md)
 - Ideas
     - [Pretty Blog](post/idea/blog-visualization.md)
