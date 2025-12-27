@@ -10,6 +10,7 @@
   - [Instalowanie pakietów](#install-packages)
   - [Dezaktywacja środowiska](#deactivate-venv)
   - [Plik requirements.txt](#requirements-file)
+  - [Ignorowanie środowiska wirtualnego w Git](#gitignore)
 
 - [Update pakietów i requirements.txt](#requirements-update)
   - [Czy potrzebne jest nowe venv](#new-venv-question)
@@ -50,10 +51,10 @@ cd /ścieżka/do/twojego/projektu
 ### 3. Tworzenie środowiska wirtualnego
 
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 
-Po wykonaniu polecenia powstanie katalog `venv/`.
+Po wykonaniu polecenia powstanie katalog `.venv/`.
 
 ---
 
@@ -62,13 +63,13 @@ Po wykonaniu polecenia powstanie katalog `venv/`.
 ### 4. Aktywacja środowiska
 
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 Po aktywacji terminal pokaże:
 
 ```text
-(venv) user@ubuntu:~/projekt$
+(.venv) user@ubuntu:~/projekt$
 ```
 
 ---
@@ -78,7 +79,7 @@ Po aktywacji terminal pokaże:
 ### 5. Instalowanie pakietów tylko dla projektu
 
 ```bash
-pip install numpy flask django
+python -m pip install numpy flask django
 ```
 
 Pakiety zostaną zainstalowane **wyłącznie w tym środowisku**.
@@ -102,13 +103,29 @@ deactivate
 Zapis zależności:
 
 ```bash
-pip freeze > requirements.txt
+python -m pip freeze > requirements.txt
 ```
 
 Instalacja w nowym środowisku:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+```
+
+---
+
+<a id="gitignore"></a>
+
+### Ignorowanie środowiska wirtualnego w Git
+
+Katalog środowiska wirtualnego (`.venv/`) nie powinien być dodawany do repozytorium.
+Środowisko wirtualne jest zależne od systemu operacyjnego i zawsze może zostać
+odtworzone na podstawie pliku `requirements.txt`.
+
+Dodaj do pliku `.gitignore`:
+
+```gitignore
+.venv/
 ```
 
 ---
@@ -129,12 +146,12 @@ Krótko: **nie zawsze**, ale **często warto**.
 
 ### Kiedy NIE tworzyć nowego venv
 
-* dodano nowy pakiet
+* dodano nowy pakiet (bez konfliktów)
 * zmieniono wersję na konkretną (`==`)
 * drobny upgrade zależności
 
 ```bash
-pip install -r requirements.txt --upgrade
+python -m pip install -r requirements.txt --upgrade
 ```
 
 ---
@@ -150,10 +167,10 @@ pip install -r requirements.txt --upgrade
 * potrzeba 100% powtarzalności
 
 ```bash
-rm -rf venv
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+rm -rf .venv
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
 ---
@@ -165,15 +182,15 @@ pip install -r requirements.txt
 #### DEV (lokalnie)
 
 ```bash
-pip install -r requirements.txt --upgrade
+python -m pip install -r requirements.txt --upgrade
 ```
 
 Okresowo:
 
 ```bash
-rm -rf venv
-python -m venv venv
-pip install -r requirements.txt
+rm -rf .venv
+python3 -m venv .venv
+python -m pip install -r requirements.txt
 ```
 
 #### CI / Docker / PROD
@@ -181,7 +198,7 @@ pip install -r requirements.txt
 ➡ **Zawsze czyste środowisko**
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ---
@@ -202,11 +219,11 @@ pip install -r requirements.txt
 ### Synchronizacja zamiast kasowania środowiska
 
 ```bash
-pip install pip-tools
+python -m pip install pip-tools
 pip-sync requirements.txt
 ```
 
-Usuwa pakiety, których nie ma w `requirements.txt`.
+> Uwaga: `pip-sync` usuwa wszystkie pakiety, których nie ma w `requirements.txt`.
 
 ---
 
