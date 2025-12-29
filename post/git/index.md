@@ -1,1 +1,2 @@
 - [Git mail config](user-config.md)
+- [Credentials issues](credentials.md)

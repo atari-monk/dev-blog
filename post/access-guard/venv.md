@@ -54,7 +54,14 @@ cd /ścieżka/do/twojego/projektu
 python3 -m venv .venv
 ```
 
-Po wykonaniu polecenia powstanie katalog `.venv/`.
+Po wykonaniu polecenia powstanie katalog `.venv/`.  
+Sprawdź 
+
+```bash
+ls -a
+```
+
+Ustawienia w configach mogą ukrywać ten katalog, więc może nie być widoczny w VSCode.
 
 ---
 
