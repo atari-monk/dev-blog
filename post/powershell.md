@@ -12,14 +12,6 @@ gc "C:\Full\Path\To\some.ts" | Set-Clipboard
 
 where gc is alias for Get-Content
 
-## Override last commit
-
-Optionally with same message
-
-```
-git add . && git commit --amend -m "commit msg" && git push --force origin main  
-```
-
 ## Lowercase
 
 ```powershell
@@ -49,11 +41,4 @@ code "C:/Atari-Monk/project/dev-blog/post/projects/logs/2025/11/today-current.js
 
 ```sh
 Get-Content "C:/Atari-Monk/project/dev-blog/post/projects/logs/2025/11/today-current.json"
-```
-
-## Remove last commit
-
-```sh
-git reset --hard HEAD~1
-git push origin main --force
 ```

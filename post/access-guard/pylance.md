@@ -12,23 +12,6 @@ Great! Here’s a **fully integrated, ready-to-use setup** for a Python project 
   // Enable Pylance as the language server
   "python.languageServer": "Pylance",
 
-  // Type checking mode: off | basic | strict
-  "python.analysis.typeCheckingMode": "strict",
-
-  // Automatically detect module paths in the workspace
-  "python.analysis.autoSearchPaths": true,
-
-  // Use type information from installed libraries
-  "python.analysis.useLibraryCodeForTypes": true,
-
-  // Control the severity of specific type issues
-  "python.analysis.diagnosticSeverityOverrides": {
-    "reportOptionalMemberAccess": "warning",
-    "reportGeneralTypeIssues": "error",
-    "reportMissingImports": "warning",
-    "reportPrivateUsage": "none"
-  },
-
   // Exclude folders like virtual environments or build artifacts
   "files.exclude": {
     "**/__pycache__": true,
