@@ -1,9 +1,5 @@
 - Access Guard
-    - [Wymagania](wymagania.md)
-    - [Środowisko Wirtualne](venv.md)
-    - [Pylance](pylance.md)
-    - [MVP](access-guard-mvp.md)
-        - [Database](database.md)
-        - [Models](models.md)
-        - [Schemas](schemas.md)
-
+    - [Wymagania](2025-12-12-wymagania.md)
+    - [Środowisko Wirtualne](2025-12-13-venv.md)
+    - [Pylance](2025-12-14-pylance.md)
+    - [Swagger](2026-01-05-swagger.md)
