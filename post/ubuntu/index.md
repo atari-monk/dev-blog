@@ -1,1 +1,2 @@
 - [Terminal](terminal.md)
+- [pnpm](2026-01-06-pnpm.md)
