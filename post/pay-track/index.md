@@ -1,0 +1,4 @@
+- PayTrack
+    - [Wymagania](2026-01-07-01-wymagania.md)
+    - [Architecture](2026-01-07-02-architecture.md)
+    - [User Service Bootstrap](2026-01-09-user-service-bootstrap.md)

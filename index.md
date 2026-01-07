@@ -1,4 +1,5 @@
 - [Access Guard](post/access-guard/index.md)
+- [Pay Track](post/pay-track/index.md)
 - [Script](post/script/index.md)
 - [Git](post/git/index.md)
 - [Ubuntu](post/ubuntu/index.md)
