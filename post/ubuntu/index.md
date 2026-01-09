@@ -1,2 +1,4 @@
 - [Terminal](terminal.md)
 - [pnpm](2026-01-06-pnpm.md)
+- [rhythmbox](2026-01-09-01-rhythmbox.md)
+- [ffmpeg-record](2026-01-09-02-ffmpeg-record.md)
