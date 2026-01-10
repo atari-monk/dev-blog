@@ -1,4 +1,9 @@
 - PayTrack
+    - [README](https://github.com/atari-monk/pay-track)
     - [Wymagania](2026-01-07-01-wymagania.md)
     - [Architecture](2026-01-07-02-architecture.md)
     - [User Service Bootstrap](2026-01-09-user-service-bootstrap.md)
+    - [Express + /health](2026-01-10-01-express-health.md)
+    - [Migracje Sequelize](2026-01-10-02-migracje-sequelize.md)
+        - [Db Check](2026-01-10-03-db-check.md)
+    - [Users Crud](2026-01-10-04-users-crud.md)
